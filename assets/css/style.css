@@ -76,11 +76,7 @@ body{
 a{
     text-decoration: none;
 }
-/*.padre {
-    display: flex;
-    flex-flow: column nowrap;
 
-}*/
 
 
 .header-index {
@@ -141,33 +137,8 @@ a{
 
 
 
-
-
-
-    /*.contact{
-        height: 60px;
-        align-items: center;
-        align-content: center;
-        margin-top: auto;
-
-        
-        
-    }
-                .contact a{
-                    color: #5D5DF8;
-                    font-weight: 600;
-                    font-size: 14px;
-                    border: solid 1px #5D5DF8;
-                    padding: 1rem;
-                    border-radius: 7px;
-                    justify-content: center;
-                    align-items: center;
-                    align-content: center;
-
-                    }*/
                 
-                
-            
+                           
       
 
             .texto-principal{
@@ -190,24 +161,6 @@ a{
                 
             
             
-                /*-webkit-box-decoration-break: clone;
-                box-decoration-break: clone;
-                background: #161618;
-                line-height: ; */
-                
-
-            
-
-
-
-            
-
-
-    /*.articulos{
-        display: flex;
-        flex-flow: column; 
-    }*/ 
-
 
 
         .status-imagen {
