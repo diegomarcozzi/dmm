@@ -669,14 +669,31 @@ a.button-email {
 }
 
 
-.bg-3da {
-    width: 10rem;
-    height: auto;
-    z-index: -10;
-    opacity: 100%;
-    background-image: url(../../images/3da.png);
+.bg {
+    z-index: -1000;
+    opacity: 25%;
+    margin-top: -45rem;
+    margin-right: 0rem;
+}
 
 
+.bg2 {
+    background: url(../../images/bg2.svg);
+    height: 500px;
+    background-position: left;
+    background-repeat: repeat-y;
+    background-size: cover;
+    z-index: -1100;
+}
+
+
+.bg3 {
+    background: url(../../images/bg3.svg);
+    height: 500px;
+    background-position: left;
+    background-repeat: repeat-y;
+    background-size: cover;
+    z-index: -1100;
 }
 
 
