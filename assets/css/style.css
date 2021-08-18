@@ -208,6 +208,7 @@ a{
             flex-flow: row wrap;
             flex: 1 1 auto;
             margin: 0 auto;
+            
 
             width: min(90%, 70.5rem);
             justify-content: space-evenly;
