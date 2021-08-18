@@ -279,7 +279,7 @@ a{
             flex-flow: column;
             border-radius: 60px;
             align-items: center;
-            padding: 1px 1px 1px 1px;
+            padding: 10px 10px 10px 10px;
             background-color: #FFD175;
             width: 200px;
             margin-top: 5rem;
@@ -429,7 +429,7 @@ margin-top: 1rem;
 
          }
                  
-            .report {
+         .report {
             display: flex;
             flex-flow: column;
             border-radius: 60px;
@@ -446,6 +446,11 @@ margin-top: 1rem;
             margin: 0 auto;
 
          }
+
+
+         
+
+
 
 
          .solving{
@@ -573,11 +578,10 @@ a.otherworks-btn {
     flex-flow: column;
     border-radius: 60px;
     align-items: center;
-    padding: 1px 1px 1px 1px;
+    padding: 10px 10px 10px 10px;
     background-color: #FFD175;
-    width: 300px;
+    width: 250px;
     text-align: center;
-
     margin: 0 auto;
 
    }
@@ -637,7 +641,7 @@ a.button-email {
     flex-flow: column;
     border-radius: 60px;
     align-items: center;
-    padding: 1px 1px 1px 1px;
+    padding: 10px 10px 10px 10px;
     background-color: #FFD175;
     width: 400px;
     margin-top: 5rem;
