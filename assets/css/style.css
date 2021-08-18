@@ -429,11 +429,24 @@ margin-top: 1rem;
 
          }
                  
-         .report {
-            text-decoration: underline;
-            text-decoration-color: #5D5DF8 ;
+            .report {
+            display: flex;
+            flex-flow: column;
+            border-radius: 60px;
+            align-items: center;
+            padding: 1px 1px 1px 1px;
+            width: 300px;
+            text-align: center;
+            align-content: center;
+            align-self: center;
+            justify-items: center;
+            justify-self: center;
+            place-items: center;
+            vertical-align: middle;
+            margin: 0 auto;
 
          }
+
 
          .solving{
             display: flex;
