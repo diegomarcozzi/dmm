@@ -13,7 +13,7 @@ body, html {
 h1 {
     font-size: 3rem;
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
 
 }
 
@@ -169,24 +169,37 @@ a{
 
 .work-title {
     text-align: left;
-    width: min(90%, 70.5rem);
+    /*width: min(90%, 70.5rem);*/
     margin: 0 auto;
     color: #1D1E2C;
-    margin-top: 12rem;
+    margin-top: 0rem;
     margin-bottom: 5rem;
+
+    background: black;
+    color: white;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding: 10rem 20%;
+ 
+
 }
 
 
+/* 
+.brands-container {
+   background: linear-gradient(-135deg, cyan, magenta);
+}*/
 
 
 .brands {
 
     display: flex;
     flex-flow: row wrap;
-    flex: 2 1 auto;
+    flex: 1 1 auto;
     margin: 0 auto;
     width: min(90%, 70.5rem);
 
+
+    
      
     }
 
@@ -195,6 +208,7 @@ a{
         .logos   {
             flex: 1 1 40%;
             text-align: center;
+            padding: 5rem;
             
            
         }
@@ -209,7 +223,7 @@ a{
             flex: 1 1 auto;
             margin: 0 auto;
             
-
+padding-bottom: 15rem;
             width: min(90%, 70.5rem);
             justify-content: space-evenly;
 
@@ -258,6 +272,54 @@ a{
                 .work-redeem a:hover{
                     filter: opacity(30%)
                 }
+
+
+
+
+.portfolio-gallery-wrapper {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+
+   /* background-color: #F5F5F5;*/
+
+}
+
+
+
+.column {
+            display: flex;
+            flex-flow: row wrap;
+            flex: 1 1 auto;
+            margin: 0 auto;
+            justify-content:center;
+            object-fit: cover;
+            text-align: center;
+            align-content: center;
+            align-self: center;
+            justify-items: center;
+            justify-self: center;
+            place-items: center;
+            vertical-align: middle;
+            margin: 0 auto;
+           /* background-color: rgb(212, 212, 212); */
+            /* max-width: 77.715rem; */
+
+}    
+
+.column img { 
+    flex: 1 1 auto;
+    max-width: 800px;
+
+
+}
+
+
+
+
+#portfoliopic {
+    border-radius: 50px;
+    padding: 2%;
+}
 
 
 
@@ -328,7 +390,7 @@ a{
         text-align: justify;   
         margin: 0 auto;
         width: min(90%, 70.5rem);
-        margin-top: 10rem;
+        margin-top: 20rem;
         max-width: 70.5ch;
         border-radius: 50px;
         
@@ -345,7 +407,7 @@ a{
            text-align: justify;
            margin: 0 auto;
            width: min(90%, 70.5rem);
-           margin-top: 10rem;
+           margin-top: 20rem;
            max-width: 70.5ch;
         border-radius: 50px;
         } 
@@ -360,7 +422,7 @@ a{
             text-align: left;
             margin: 0 auto;     
            width: min(90%, 70.5rem);
-           margin-top: 10rem;
+           margin-top: 20rem;
            max-width: 70.5ch;
         border-radius: 50px;
          
@@ -396,7 +458,7 @@ a{
            text-align: justify;
            margin: 0 auto;
            width: min(90%, 70.5rem);
-           margin-top: 10rem;
+           margin-top: 20rem;
            max-width: 70.5ch;
         border-radius: 50px;
          } 
@@ -410,7 +472,7 @@ a{
             text-align: justify;   
             margin: 0 auto;
             width: min(90%, 70.5rem);
-            margin-top: 10rem;
+            margin-top: 20rem;
             max-width: 70.5ch;
         border-radius: 50px;
         
@@ -460,7 +522,7 @@ margin-top: 1rem;
             text-align: justify;
             margin: 0 auto;
             width: min(90%, 70.5rem);
-            margin-top: 10rem;
+            margin-top: 20rem;
             max-width: 70.5ch;
         border-radius: 50px;
           
@@ -474,11 +536,10 @@ margin-top: 1rem;
             margin: 0 auto;
             width: min(90%, 70.5rem);
             max-width: 70.5ch;
-            margin-top: 0;
-            margin-top: 50px;
-            background-color: #F5F5F5;
+            margin-top: 10px;
+            
             border-radius: 10px; 
-            padding: 50px;
+
          }
 
          .greybox {
@@ -487,10 +548,11 @@ margin-top: 1rem;
             text-align: justify;
             margin: 0 auto;
             max-width: 70.5ch;
-            padding: 50px;
+            padding: 10px 30px 10px 30px;
             margin-top: 50px;
             border-radius: 10px; 
             border: 1px solid #1D1E2C;
+            background-color: #F5F5F5;
          }
 
 
@@ -514,7 +576,7 @@ margin-top: 1rem;
 .screenshots {
         margin: 0 auto;
         width: min(90%, 70.5rem);
-        margin-top: 10rem;
+        margin-top: 20rem;
         max-width: 60ch;
         display: flex;
         flex-flow: column;
@@ -542,6 +604,7 @@ margin-top: 1rem;
     place-items: center;
     vertical-align: middle;
     line-height: 100%;
+    background-color: #F5F5F5;
 
 
 }
@@ -618,6 +681,8 @@ a.otherworks-btn {
     vertical-align: middle;
   
 
+
+    
 }
 
 .footer-text { 
@@ -860,3 +925,29 @@ h6 {
   .dribbble {
     width: 100px;
   }
+
+
+
+  mark {
+    margin: 0 -0.4em;
+    padding: 0.6em 1em;
+    border-radius: 0.8em 0.3em;
+    background: transparent;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 225, 0, 0.1),
+      rgba(255, 209, 117, 0.8) 4%,
+      rgba(248, 22, 0, 0.3)
+    );
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  #imgrounded {
+      border-radius: 20px;
+  }
+
+  #imgrounded2 {
+    border-radius: 40px;
+}
+  
