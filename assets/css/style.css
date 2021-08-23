@@ -232,11 +232,11 @@ padding-bottom: 15rem;
     
                 .work-status  {
 		    flex: 1 1 auto;
-                    width: 400px;
+                    width: 500px;
             }
           
             .work-status a:hover{
-                filter: opacity(30%)
+                filter:grayscale(100%)
 
             }
 
@@ -244,33 +244,33 @@ padding-bottom: 15rem;
 
                 .work-nike {
                       flex: 1 1 auto;
-                      width: 400px;
+                      width: 500px;
                 }
 
                 .work-nike a:hover{
-                    filter: opacity(30%)
+                    filter:grayscale(100%)
                 }
 
 
                 .work-skyscanner  {
                     flex: 1 1 auto;
-                    width: 400px;
+                    width: 500px;
 
             }
           
             .work-skyscanner a:hover{
-                filter: opacity(30%)
+                filter:grayscale(100%)
 
             }
 
                 .work-redeem {
                     flex: 1 1 auto;
-                    width: 400px;
+                    width: 500px;
    
                 }
 
                 .work-redeem a:hover{
-                    filter: opacity(30%)
+                    filter:grayscale(100%)
                 }
 
 
