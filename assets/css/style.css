@@ -465,6 +465,18 @@ padding-bottom: 15rem;
          } 
 
 
+
+ .skills{
+            display: flex;
+           flex-flow: column;
+           text-align: justify;
+           margin: 0 auto;
+           width: min(90%, 70.5rem);
+           margin-top: 10rem;
+           max-width: 70.5ch;
+        border-radius: 50px;
+         } 
+
         
 
          .ux {
