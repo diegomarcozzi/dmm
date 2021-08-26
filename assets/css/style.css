@@ -115,7 +115,7 @@ a{
                 width: min(90%, 70.5rem);
         }
             .logo a:hover{
-                filter:opacity(30%);
+                filter:invert(100%);
             }
             
         .nav {
@@ -236,7 +236,7 @@ padding-bottom: 15rem;
             }
           
             .work-status a:hover{
-                filter:grayscale(100%)
+                filter:invert(100%)
 
             }
 
@@ -248,7 +248,7 @@ padding-bottom: 15rem;
                 }
 
                 .work-nike a:hover{
-                    filter:grayscale(100%)
+                    filter:invert(100%)
                 }
 
 
@@ -259,7 +259,7 @@ padding-bottom: 15rem;
             }
           
             .work-skyscanner a:hover{
-                filter:grayscale(100%)
+                filter:invert(100%)
 
             }
 
@@ -270,7 +270,7 @@ padding-bottom: 15rem;
                 }
 
                 .work-redeem a:hover{
-                    filter:grayscale(100%)
+                    filter:invert(100%)
                 }
 
 
@@ -342,8 +342,9 @@ padding-bottom: 15rem;
             flex-flow: column;
             border-radius: 60px;
             align-items: center;
-            padding: 10px 10px 10px 10px;
-            background-color: #FFD175;
+            padding: 5px 5px 5px 5px;
+            border: 2px solid #1D1E2C;
+
             width: 200px;
             margin-top: 5rem;
             text-align: center;
@@ -368,15 +369,15 @@ padding-bottom: 15rem;
 
 
         a.button-work:hover {
-            filter: invert(1);
+            filter: invert(100%);
         }
 
         a.button-about:hover {
-            filter:invert(1)
+            filter:invert(100%)
         }
 
         a.button-contact:hover {
-            filter:invert(1)
+            filter:invert(100%)
         }
 
 
@@ -642,8 +643,10 @@ a.otherworks-btn {
     flex-flow: column;
     border-radius: 60px;
     align-items: center;
-    padding: 10px 10px 10px 10px;
-    background-color: #FFD175;
+    
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #1D1E2C;
+
     width: 250px;
     text-align: center;
     margin: 0 auto;
@@ -707,8 +710,9 @@ a.button-email {
     flex-flow: column;
     border-radius: 60px;
     align-items: center;
-    padding: 10px 10px 10px 10px;
-    background-color: #FFD175;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #1D1E2C;
+
     width: 400px;
     margin-top: 5rem;
     text-align: center;
