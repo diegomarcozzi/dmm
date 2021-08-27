@@ -1011,7 +1011,7 @@ h1 {
 
     .column img { 
         flex: 1 1 auto;
-        max-width: 400px;
+        max-width: 350px;
     }
 
 
@@ -1219,3 +1219,4 @@ h1 {
     border-radius: 4vh;
 }
   
+
