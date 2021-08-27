@@ -289,7 +289,7 @@ a{
     color: #1D1E2C;
     margin-bottom: 15%;
 
-    background: url(../../images/bg1.svg);
+    background: url(../../images/bg4.svg);
     
     background-size: contain;
  
@@ -302,12 +302,21 @@ a{
     padding-top: 15%;
     padding-bottom: 15%;
 
-    background: url(../../images/bg1.svg);
+    background: url(../../images/bg4.svg);
     
-    background-size: contain;
+    background-size: auto;
 
 }
 
+
+.bg4 {
+    
+
+    background: url(../../images/bg4.svg);
+    
+    background-size: auto;
+
+}
 
 
 .column {
