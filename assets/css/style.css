@@ -292,6 +292,8 @@ a{
     background: url(../../images/bg4.svg);
     
     background-size: contain;
+	    background-repeat:repeat-y;
+
  
 
 }
