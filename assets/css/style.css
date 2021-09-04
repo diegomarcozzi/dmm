@@ -185,7 +185,6 @@ a{
 
     display: flex;
     flex-flow: row wrap;
-    flex: 1 1 auto;
     margin: 0 auto;
     width: min(90%, 70.5rem);
 
@@ -199,8 +198,6 @@ a{
         .logos   {
             flex: 1 1 40%;
             text-align: center;
-            padding: 5rem;
-            
            
         }
 
