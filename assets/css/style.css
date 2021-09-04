@@ -178,10 +178,7 @@ a{
 
 
 
-/* 
-.brands-container {
-   background: linear-gradient(-135deg, cyan, magenta);
-}*/
+
 
 
 .brands {
@@ -603,6 +600,12 @@ margin-top: 1rem;
             border-radius: 2vh; 
             background-color: #F5F5F5;
          }
+
+
+.box {
+    background: black;
+    padding-bottom: 3vh;
+}
 
 
 
