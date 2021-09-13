@@ -986,7 +986,6 @@ h1 {
     }
 
     .header-index {
-        background: url(../../images/3dbg2_768.png);
         background-position: center;
         display: flex;
         flex-flow: column nowrap;
@@ -1063,7 +1062,6 @@ h1 {
     }
 
     .header-index {
-        background: url(../../images/3dbg2_411.png);
         background-position: center;
         display: flex;
         flex-flow: column nowrap;
@@ -1131,7 +1129,6 @@ h1 {
     }
 
     .header-index {
-        background: url(../../images/3dbg2_360.png);
         background-position: center;
         display: flex;
         flex-flow: column nowrap;
