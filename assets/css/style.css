@@ -986,6 +986,8 @@ h1 {
     }
 
     .header-index {
+	            background: none;
+
         background-position: center;
         display: flex;
         flex-flow: column nowrap;
@@ -1062,6 +1064,8 @@ h1 {
     }
 
     .header-index {
+	            background: none;
+
         background-position: center;
         display: flex;
         flex-flow: column nowrap;
@@ -1129,6 +1133,8 @@ h1 {
     }
 
     .header-index {
+	            background: none;
+
         background-position: center;
         display: flex;
         flex-flow: column nowrap;
