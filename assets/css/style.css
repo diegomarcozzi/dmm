@@ -286,17 +286,16 @@ a{
     text-align: left;
     width: cover;
     margin: 0 auto;
-    color: #1D1E2C;
     margin-bottom: 15%;
 
     background: url(../../images/bg4.svg);
-    
+    background-color: #1D1E2C ;
     background-size: contain;
-	    background-repeat:repeat-y;
-
- 
+	background-repeat:repeat-y;
+    
 
 }
+
 
 
 
@@ -880,6 +879,7 @@ a.button-email {
 
 h1 {
     font-size: 3.454rem;
+    color: #1D1E2C;
 }
     h6 {
         font-size: 7.853rem;
