@@ -20,6 +20,7 @@ h1 {
     font-size: 4.854rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
+    color: #161721;
 
 }
 
@@ -28,11 +29,24 @@ h2 {
     font-size: 3rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
+    color: #161721;
+
 }
+
+li span {
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    color: #161721;
+
+}
+
 
 
 h6 { 
     font-size: 12.707rem;
+    color: #161721;
+
 }
 
 
@@ -42,7 +56,7 @@ p {
     font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: #1D1E2C;
+    color: #161721;
 
 }
 
@@ -50,6 +64,8 @@ li {
     font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    color: #161721;
+
 }
 
 
@@ -157,7 +173,7 @@ a{
             }
             .titulo-principal{
                 display: inline;
-                color: #1D1E2C;
+                color: #161721;
                 margin-top: 61px;
                 width: min(90%, 35.5rem)
             }
@@ -288,10 +304,11 @@ a{
     margin: 0 auto;
     margin-bottom: 15%;
 
-    background: url(../../images/bg4.svg);
-    background-color: #1D1E2C ;
-    background-size: contain;
-	background-repeat:repeat-y;
+
+    background: url(../../images/bg5.svg);
+    background-color: #161721 ;
+    background-size:cover;
+	background-repeat:no-repeat;
     
 
 }
@@ -393,7 +410,7 @@ a{
         
            a.button-status:hover{
             -webkit-text-fill-color:white;
-            background-color: #1D1E2C;
+            background-color: #161721;
 
             }
 
@@ -705,7 +722,7 @@ a.otherworks-btn {
 
    a.otherworks-btn:hover{
     -webkit-text-fill-color:white;
-    background-color: #1D1E2C;
+    background-color: #161721;
 
     }
 
@@ -778,7 +795,7 @@ a.button-email {
    a.button-email:hover{
 
     -webkit-text-fill-color:white;
-    background-color: #1D1E2C;
+    background-color: #161721;
 }
 
 
@@ -879,7 +896,7 @@ a.button-email {
 
 h1 {
     font-size: 3.454rem;
-    color: #1D1E2C;
+    color: #161721;
 }
     h6 {
         font-size: 7.853rem;
