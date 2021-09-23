@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;    
+    box-sizing: border-box;
+        
 }
 
 .wrap {
@@ -319,7 +320,6 @@ a{
 .portfolio-gallery-wrapper {
     padding-top: 15%;
     padding-bottom: 15%;
-
     background: url(../../images/bg4.svg);
     
     background-size: auto;
@@ -352,15 +352,14 @@ a{
             place-items: center;
             vertical-align: middle;
             margin: 0 auto;
-           /* background-color: rgb(212, 212, 212); */
-            /* max-width: 77.715rem; */
 
 }    
 
 .column img { 
     flex: 1 1 auto;
     max-width: 800px;
-
+width: 100%;
+height: 100%;
 
 }
 
@@ -943,6 +942,49 @@ h1 {
         
     }
 
+    .work-status  {
+        margin-top: 20%;
+                flex: 1 1 auto;
+                min-width: 600px;
+                padding: 5%;
+
+        }
+      
+    
+
+            .work-nike {
+                  flex: 1 1 auto;
+                  min-width: 600px;
+                  padding: 5%;
+
+            }
+
+
+
+            .work-skyscanner  {
+                flex: 1 1 auto;
+                min-width: 600px;
+                padding: 5%;
+
+
+        }
+
+
+            .work-redeem {
+                flex: 1 1 auto;
+                min-width: 600px;
+                padding: 5%;
+                align-self: center;
+                margin-bottom: 30%;
+
+
+            }
+
+            #portfoliopic {
+                border-radius: 3vh;
+                padding: 2%;
+            }
+
 
 
 }
@@ -956,12 +998,6 @@ h1 {
         flex-direction: column;
     }
 
-    .column img { 
-        flex: 1 1 auto;
-        max-width: 700px;
-    
-    
-    }
 
     
 
