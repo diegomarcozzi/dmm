@@ -366,10 +366,6 @@ height: 100%;
 
 
 
-#portfoliopic {
-    border-radius: 6vh;
-    padding: 2%;
-}
 
 
 
@@ -981,7 +977,6 @@ h1 {
             }
 
             #portfoliopic {
-                border-radius: 3vh;
                 padding: 2%;
                 
             }
