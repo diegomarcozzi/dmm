@@ -983,9 +983,13 @@ h1 {
             #portfoliopic {
                 border-radius: 3vh;
                 padding: 2%;
+                
             }
 
-
+            .get-status {
+                margin-top: 0rem;
+                
+            }
 
 }
 
