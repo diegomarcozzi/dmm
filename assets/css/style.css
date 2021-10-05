@@ -10,8 +10,13 @@
 }
 
 body, html { 
-    height: 100%;
-	   background-color: #FCFCFC;
+	   background: #FCFCFC;
+       margin: 0;
+
+       width: 100vw;
+  height: 100vh;
+  animation: bugfix infinite 1s;
+  -webkit-animation: bugfix infinite 1s;
 
 }
 
@@ -23,6 +28,11 @@ h1 {
     font-weight: 900;
     color: #161721;
 
+}
+
+
+h1 span {
+    display: inline-block;
 }
 
 
@@ -41,6 +51,9 @@ li span {
     color: #161721;
 
 }
+
+
+
 
 
 
@@ -70,7 +83,9 @@ li {
 }
 
 
-
+.menu-wrapper {
+    display: none;
+  }
 
 
 
@@ -96,20 +111,7 @@ a{
 
 
 
-.header-index {
-    background: url(../../images/3dbg2a.png);
-    background-position: center;
-    display: flex;
-    flex-flow: column nowrap;
-    margin-top: 2rem;
-    
 
-    background-size: contain;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    min-height: auto;
-    
-}
 
 .header-status {
     background-position: center;
@@ -136,23 +138,32 @@ a{
         flex-flow: row;
         margin: 0 auto;
         width: min(90%, 70.5rem);
+        justify-content: space-between;
+        margin-top: 2rem;
+
 
     }
 
             .logo  {
+                flex: 1 1 50;
+
                 height: 50px;
-                width: min(90%, 70.5rem);
+                margin-left: 0;
+                align-content: flex-start;
         }
             .logo a:hover{
                 filter:invert(20%);
             }
             
         .nav {
+            flex: 1 1 50;
+margin-top: 1.5rem;
             height: 50px;
             font-weight: 700;
-            display: flex;
-            flex-flow: row;
-            align-items: center;
+            vertical-align: middle;
+            align-content: flex-end;
+
+
         }
 
 
@@ -161,24 +172,66 @@ a{
                            
       
 
-            .texto-principal{
+            .texto-principal {
                 
-                height: 850px;
+               /* height: 850px;
                 display: flex;
                 margin: 0 auto;
                 width: min(90%, 70.5rem);
-                margin-top: 5rem;
+                margin-top: 5rem;*/
                 
-    
-        
+flex: 1 1 40%;
+width: 600px;
+padding: 1%;
+max-width: 600px;
+
             }
+        
+.parrafo-principal {
+    max-width: 45.5ch;
+    text-align: justify;
+    margin-top:5rem;
+    width: min(90%, 35.5rem);
+    font-size: 1.14rem;
+}
+
+
             .titulo-principal{
                 display: inline;
                 color: #161721;
                 margin-top: 61px;
                 width: min(90%, 35.5rem)
             }
-                
+              
+            
+
+            .hero {
+                display: flex;
+                flex-flow: row nowrap;
+                margin: 0 auto;
+                width: min(90%, 70.5rem);
+                margin-top: 10rem;
+                margin-bottom: 10rem;
+                justify-content: space-between;
+            
+            }
+            
+            .hero-image {
+            
+            flex: 1 1 40%;
+            
+            padding: 1%;
+            max-width: 600px;
+            justify-content:center;
+            text-align: center;
+            align-content: center;
+            align-self: center;
+            justify-items: center;
+            justify-self: center;
+            place-items: center;
+            vertical-align: middle;
+            margin: 0 auto;
+            }
             
             
 
@@ -193,9 +246,6 @@ a{
             
             
         }
-
-
-
 
 
 
@@ -314,7 +364,11 @@ a{
 
 }
 
-
+.work-title2 {
+text-align: center;
+padding-top: 20%;
+padding-bottom: 5%; 
+}
 
 
 .portfolio-gallery-wrapper {
@@ -876,17 +930,35 @@ a.button-email {
  }
 
 
+ .about-text{
+    display: flex;
+    flex-flow: column;  
+    text-align: justify;   
+    margin: 0 auto;
+    width: min(90%, 70.5rem);
+    margin-top: 10rem;
+    max-width: 70.5ch;
+    border-radius: 50px;
+    
+        
+
+    } 
+
+
+
+
 
  @media all and (max-width: 1024px) {
-    .section  {
-        flex-direction: column;
+   
+.logo {
+    margin-left: 1.5rem;
+}
+    .menu-wrapper {
+     display: block;
     }
-    .menu{
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-            align-content: center;
-            align-self: center;
+
+    .nav {
+        display: none;
     }
 
 h1 {
@@ -897,20 +969,6 @@ h1 {
         font-size: 7.853rem;
     }
 
-    .logo {
-        text-align: center;
-        align-content: center;
-        align-self: center; 
-    }
-
-    .nav{
-        margin-top: 2rem;
-        flex-direction: row;
-        height: auto;
-        text-align: center;
-        align-content: center;
-        align-self: center;
-    }
 
     .articulos .overview .img-payments{
         
@@ -923,20 +981,7 @@ h1 {
         margin: 0 auto;
     }
 
-    .header-index {
-        background: url(../../images/3dbg2_1024.png);
-        background-position: center;
-        display: flex;
-        flex-flow: column nowrap;
-        margin-top: 2rem;
-        
     
-        background-size: contain;
-        background-repeat: no-repeat;
-        max-width: 100%;
-        min-height: auto;
-        
-    }
 
     .work-status  {
         margin-top: 20%;
@@ -986,6 +1031,49 @@ h1 {
                 
             }
 
+
+
+.hero {
+    margin-top: 10rem;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    margin: 0 auto;
+    width: min(90%, 70.5rem);
+    margin-bottom: 10rem;
+
+
+    
+}
+
+
+            .hero-image {
+            
+                flex: 1 1 auto;
+                padding: 1%;
+                max-width: 1000px;
+                margin-top: 5rem;
+            }
+
+.texto-principal {
+    flex: 1 1 auto;
+padding: 1%;
+max-width: 1000px;
+text-align: center;
+
+
+}
+
+.parrafo-principal {
+    text-align: center;
+    margin-top:5rem;
+    max-width: 1000px;
+
+    font-size: 1.14rem;
+
+        margin: 0 auto;
+}
+
+
 }
 
 
@@ -1000,13 +1088,10 @@ h1 {
 
     
 
-    .menu{
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-            align-content: center;
-            align-self: center;
-    }
+   
+
+
+    
 
     h1 {
         font-size: 3.454rem;
@@ -1021,14 +1106,7 @@ h1 {
         align-self: center; 
     }
 
-    .nav{
-        margin-top: 2rem;
-        flex-direction: row;
-        height: auto;
-        text-align: center;
-        align-content: center;
-        align-self: center;
-    }
+    
 
     .articulos .overview .img-payments{
         
@@ -1041,21 +1119,75 @@ h1 {
         margin: 0 auto;
     }
 
-    .header-index {
-	            background: none;
-
-        background-position: center;
+ 
+    .hero {
+        margin-top: 10rem;
         display: flex;
-        flex-flow: column nowrap;
-        margin-top: 2rem;
+        flex-flow: row wrap-reverse;
+        margin: 0 auto;
+        width: min(90%, 70.5rem);
+        margin-bottom: 10rem;
+        margin: 0 auto;
+
+       
+    }
+    
+    
+                .hero-image {
+                
+                    flex: 1 1 auto;
+                    padding: 1%;
+                    max-width: 744px;
+                    margin-top: 10rem;
+                    margin-left: -4.5rem;
+                }
+    
+    .texto-principal {
+        flex: 1 1 auto;
+    padding: 1%;
+    max-width: 744px;
+    text-align: center;
+    
+    }
+    
+    .parrafo-principal {
+        text-align: center;
+        margin-top: 5rem;
+        max-width: 744px;
+        margin: 0 auto;
+
+        font-size: 1.14rem;
+    
+    }
+
+.brands {
+    display: none;
+}
+
+
+
+    .work-title {
+        text-align: left;
+        width: cover;
+        margin: 0 auto;
+        margin-bottom: 15%;
+    margin-top: 10rem;
+    
+        background: url(../../images/bg5.svg);
+        background-color: #161721 ;
+        background-size:cover;
+        background-repeat:no-repeat;
         
     
-        background-size: contain;
-        background-repeat: no-repeat;
-        max-width: 100%;
-        min-height: auto;
-        
     }
+    .work-title2 {
+        text-align: center;
+        padding-top: 40%;
+        padding-bottom: 5%; 
+        margin: 0 auto;
+        width: min(90%, 20rem);
+
+        }
 
 
 
@@ -1078,13 +1210,6 @@ h1 {
 
 
 
-    .menu{
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-            align-content: center;
-            align-self: center;
-    }
 
     h1 {
         font-size: 3.454rem;
@@ -1099,14 +1224,7 @@ h1 {
         align-self: center; 
     }
 
-    .nav{
-        margin-top: 2rem;
-        flex-direction: row;
-        height: auto;
-        text-align: center;
-        align-content: center;
-        align-self: center;
-    }
+    
 
     .articulos .overview .img-payments{
         
@@ -1119,21 +1237,38 @@ h1 {
         margin: 0 auto;
     }
 
-    .header-index {
-	            background: none;
-
-        background-position: center;
-        display: flex;
-        flex-flow: column nowrap;
-        margin-top: 2rem;
-        
     
-        background-size: contain;
-        background-repeat: no-repeat;
-        max-width: 100%;
-        min-height: auto;
-        
+
+    .hero-image {
+                
+        flex: 1 1 auto;
+        padding: 1%;
+        max-width: 387px;
+        margin-top: 5rem;
+        margin: 0 auto;
+
     }
+
+.texto-principal {
+flex: 1 1 auto;
+padding: 1%;
+max-width: 387px;
+text-align: center;
+
+}
+
+.parrafo-principal {
+text-align: center;
+margin-top:5rem;
+max-width: 387px;
+
+font-size: 1.14rem;
+
+margin: 0 auto;
+}
+
+
+
 
 }
    
@@ -1142,18 +1277,11 @@ h1 {
         flex-direction: column;
     }
 
-
     .column img { 
         flex: 1 1 auto;
         max-width: 300px;
     }
-    .menu{
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-            align-content: center;
-            align-self: center;
-    }
+    
 h1 {
     font-size: 3.454rem;
 }
@@ -1168,14 +1296,7 @@ h1 {
         align-self: center; 
     }
 
-    .nav{
-        margin-top: 2rem;
-        flex-direction: row;
-        height: auto;
-        text-align: center;
-        align-content: center;
-        align-self: center;
-    }
+    
 
     .articulos .overview .img-payments{
         
@@ -1188,21 +1309,32 @@ h1 {
         margin: 0 auto;
     }
 
-    .header-index {
-	            background: none;
-
-        background-position: center;
-        display: flex;
-        flex-flow: column nowrap;
-        margin-top: 2rem;
-        
-    
-        background-size: contain;
-        background-repeat: no-repeat;
-        max-width: 100%;
-        min-height: auto;
-        
+   
+    .hero-image {
+                
+        flex: 1 1 auto;
+        padding: 1%;
+        max-width: 336px;
+        margin-top: 5rem;
     }
+
+.texto-principal {
+flex: 1 1 auto;
+padding: 1%;
+max-width: 336px;
+text-align: center;
+
+}
+
+.parrafo-principal {
+text-align: center;
+margin-top:5rem;
+max-width: 336px;
+
+font-size: 1.14rem;
+
+margin: 0 auto;
+}
 
 
 
@@ -1313,3 +1445,119 @@ h1 {
     }
     } 
 
+
+
+
+
+
+
+    @keyframes bugfix {
+        from {
+          padding: 0;
+        }
+        to {
+          padding: 0;
+        }
+      }
+      @-webkit-keyframes bugfix {
+        from {
+          padding: 0;
+        }
+        to {
+          padding: 0;
+        }
+      }
+      #overlay-button {
+        position:absolute;
+        right: 2em;
+        top: 3em;
+        padding: 26px 11px;
+        z-index: 5;
+        cursor: pointer;
+        user-select: none;
+        margin-top: -1rem;
+      }
+      #overlay-button span {
+        height: 4px;
+        width: 35px;
+        border-radius: 2px;
+        background-color: #c4c4c4;
+        position: relative;
+        display: block;
+        transition: all 0.2s ease-in-out;
+      }
+      #overlay-button span:before {
+        top: -10px;
+        visibility: visible;
+      }
+      #overlay-button span:after {
+        top: 10px;
+      }
+      #overlay-button span:before, #overlay-button span:after {
+        height: 4px;
+        width: 35px;
+        border-radius: 2px;
+        background-color: #c4c4c4; 
+        position: absolute;
+        content: "";
+        transition: all 0.2s ease-in-out;
+      }
+      #overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
+        background: #333332;
+      }
+      
+      input[type=checkbox] {
+        display: none;
+      }
+      
+      input[type=checkbox]:checked ~ #overlay {
+        visibility: visible;
+      }
+      
+      input[type=checkbox]:checked ~ #overlay-button:hover span, input[type=checkbox]:checked ~ #overlay-button span {
+        background: transparent;
+      }
+      input[type=checkbox]:checked ~ #overlay-button span:before {
+        transform: rotate(45deg) translate(7px, 7px);
+        opacity: 1;
+      }
+      input[type=checkbox]:checked ~ #overlay-button span:after {
+        transform: rotate(-45deg) translate(7px, -7px);
+      }
+      
+      #overlay {
+        height: 100vh;
+        width: 100vw;
+        background: #161721;
+        z-index: 2;
+        visibility: hidden;
+        position: fixed;
+      }
+      #overlay.active {
+        visibility: visible;
+      }
+      #overlay ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100vh;
+        padding-left: 0;
+        list-style-type: none;
+      }
+      #overlay ul li {
+        padding: 0em;
+      }
+      #overlay ul li a {
+        color: white;
+        text-decoration: none;
+        
+      }
+      #overlay ul li a:hover {
+        color: #333332;
+      }
+
+
+      
+      
