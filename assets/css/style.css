@@ -371,6 +371,29 @@ padding-bottom: 5%;
 }
 
 
+.work-title3 {
+    text-align: left;
+    width: cover;
+    margin: 0 auto;
+    margin-bottom: 15%;
+margin-top: -10rem;
+
+    background: url(../../images/bg5.svg);
+    background-color: #161721 ;
+    background-size:cover;
+	background-repeat:no-repeat;
+    
+
+}
+
+.work-title4 {
+    text-align: center;
+    padding-top: 20rem;
+    padding-bottom: 0rem; 
+    }
+
+
+
 .portfolio-gallery-wrapper {
     padding-top: 15%;
     padding-bottom: 15%;
