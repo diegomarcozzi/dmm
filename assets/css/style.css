@@ -970,8 +970,19 @@ a.button-email {
 
 
 
+    #hero-small {
+        display:none;
+    }
+
+
 
  @media all and (max-width: 1024px) {
+
+
+    #hero-small {
+        display:none;
+    }
+
    
 .logo {
     margin-left: 1.5rem;
@@ -1114,16 +1125,35 @@ text-align: center;
     }
 
 
-    
+    #hero-big {
+        display: none;
+    }
 
-   
+    #hero-small {
+        display:flex;
+        min-width: 350px;
+
+    
+    }
 
 
     
 
     h1 {
-        font-size: 3.454rem;
+        font-size: 3rem;
+    
     }
+
+
+    h1 span {
+        font-size: 3rem;
+
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
     h6 {
         font-size: 7.853rem;
     }
@@ -1167,7 +1197,17 @@ text-align: center;
                     padding: 1%;
                     max-width: 744px;
                     margin-top: 10rem;
-                    margin-left: -4.5rem;
+                    justify-content:center;
+                    text-align: center;
+                    align-content: center;
+                    align-self: center;
+                    justify-items: center;
+                    justify-self: center;
+                    place-items: center;
+                    vertical-align: middle;
+                
+                
+                
                 }
     
     .texto-principal {
@@ -1310,9 +1350,21 @@ text-align: center;
         padding: 1%;
         max-width: 387px;
         margin-top: 5rem;
-        margin: 0 auto;
-
+        
+        justify-content:center;
+        text-align: center;
+        align-content: center;
+        align-self: center;
+        justify-items: center;
+        justify-self: center;
+        place-items: center;
+        vertical-align: middle;
     }
+
+
+   
+
+
 
 .texto-principal {
 flex: 1 1 auto;
