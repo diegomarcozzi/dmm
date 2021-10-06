@@ -1151,12 +1151,20 @@ text-align: center;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 0.927rem;
     }
 
     h6 {
-        font-size: 7.853rem;
+        font-size: 4.85rem;
     }
+
+
+    li {
+        font-size: 0.927rem;
+        
+    
+    }
+    
 
     .logo {
         text-align: center;
