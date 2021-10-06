@@ -695,7 +695,6 @@ margin-top: 1rem;
          .greybox2 {
             display: flex;
             flex-flow: column;
-            text-align: justify;
             margin: 0 auto;
             max-width: 70.5ch;
             padding: 10px 30px 10px 30px;
@@ -1142,6 +1141,20 @@ text-align: center;
     .section .work .column {
         flex-direction: column;
     }
+
+
+    .greybox2 {
+        display: flex;
+        flex-flow: column;
+        margin: 0 auto;
+        max-width: 35ch;
+        padding: 10px 30px 10px 30px;
+        margin-top: 50px;
+        border-radius: 2vh; 
+        background-color: #161721;
+        margin-top: 30rem;
+     }
+
 
 
     .skills-img {
