@@ -691,6 +691,21 @@ margin-top: 1rem;
          }
 
 
+
+         .greybox2 {
+            display: flex;
+            flex-flow: column;
+            text-align: justify;
+            margin: 0 auto;
+            max-width: 70.5ch;
+            padding: 10px 30px 10px 30px;
+            margin-top: 50px;
+            border-radius: 2vh; 
+            background-color: #161721;
+            margin-top: 30rem;
+         }
+
+
 .box {
     background: black;
 }
@@ -975,6 +990,10 @@ a.button-email {
     }
 
 
+.skills-img {
+    margin-top: 0rem;
+}
+
 
  @media all and (max-width: 1024px) {
 
@@ -1122,6 +1141,11 @@ text-align: center;
 @media all and (max-width: 768px) {
     .section .work .column {
         flex-direction: column;
+    }
+
+
+    .skills-img {
+        margin-top: 0rem;
     }
 
 
