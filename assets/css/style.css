@@ -65,6 +65,18 @@ h6 {
 
 
 
+h5 { 
+    font-size: 12.707rem;
+    color: #161721;
+
+}
+
+
+.skyscanner-title {
+    margin-top: 40%;
+}
+
+
 
 p {
     font-size: 1.5rem;
@@ -1022,6 +1034,16 @@ h1 {
     }
 
 
+    h5 { 
+        font-size: 7.853rem;
+    
+    }
+
+
+    
+    
+
+
     .articulos .overview .img-payments{
         
         flex-direction: column;
@@ -1187,12 +1209,25 @@ text-align: center;
 
     }
 
+
+    h2 {
+        font-size: 1.854rem;
+      
+    
+    }
+
     p {
         font-size: 0.927rem;
     }
 
     h6 {
         font-size: 4.85rem;
+    }
+
+
+    h5 { 
+        font-size: 4rem;
+    
     }
 
 
