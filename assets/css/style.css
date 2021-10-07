@@ -640,7 +640,7 @@ margin-top: 1rem;
 
          }
                  
-         .report {
+         .report-big {
             display: flex;
             flex-flow: column;
             border-radius: 2vh;
@@ -658,6 +658,11 @@ margin-top: 1rem;
 
          }
 
+
+                
+         .report-small {
+            display: none;
+         }
 
          
 
@@ -1196,7 +1201,30 @@ text-align: center;
     }
 
 
+    .report-big {
+        display: none;
+    }
+
     
+    .report-small {
+
+        display:flex;
+    flex-flow: column;
+    border-radius: 2vh;
+    align-items: center;
+    padding: 1px 1px 1px 1px;
+    width: 300px;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    justify-items: center;
+    justify-self: center;
+    place-items: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+
 
     h1 {
         font-size: 3rem;
