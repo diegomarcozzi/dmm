@@ -54,9 +54,6 @@ li span {
 
 
 
-
-
-
 h6 { 
     font-size: 12.707rem;
     color: #161721;
@@ -69,11 +66,6 @@ h5 {
     font-size: 12.707rem;
     color: #161721;
 
-}
-
-
-.skyscanner-title {
-    margin-top: 40%;
 }
 
 
@@ -92,6 +84,11 @@ li {
     font-weight: 400;
     color: #161721;
 
+}
+
+
+.skyscanner-title {
+    margin-top: 40%;
 }
 
 
@@ -169,7 +166,7 @@ a{
             
         .nav {
             flex: 1 1 50;
-margin-top: 1.5rem;
+            margin-top: 1.5rem;
             height: 50px;
             font-weight: 700;
             vertical-align: middle;
@@ -1006,17 +1003,134 @@ a.button-email {
     }
 
 
+
+    #hero-medium {
+        display:none;
+    }
+
+
 .skills-img {
     margin-top: 0rem;
 }
 
 
- @media all and (max-width: 1024px) {
+
+@media all and (max-width: 1367px) {
+
+
+    h1 {
+        font-size: 3.454rem;
+    }
+    
+    
+    h1 span {
+        display: inline-block;
+    }
+    
+    
+    h2 {
+        font-size: 2.135rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+        color: #161721;
+    
+    }
+    
+    li span {
+        font-size: 2.135rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+        color: #161721;
+    
+    }
+    
+    
+    
+    h6 { 
+        font-size: 9.044rem;
+        color: #161721;
+    
+    }
+    
+    
+    
+    h5 { 
+        font-size: 9.044rem;
+        color: #161721;
+    
+    }
+    
+    
+    
+    p {
+        font-size: 1.067rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #161721;
+    
+    }
+    
+    li {
+        font-size: 1.067rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #161721;
+    
+    }
+    
+
+
+
+
+
+    #hero-big {
+        display:none;
+    }
 
 
     #hero-small {
         display:none;
     }
+
+    #hero-medium {
+        display:flex;
+    }
+
+
+    .hero {
+        margin-top: 10rem;
+       
+        margin-bottom: 10rem;
+    }
+
+
+    .texto-principal {
+                
+flex: 1 1 40%;
+width: 413px;
+padding: 1%;
+max-width: 413px;
+
+     }
+
+}
+
+ @media all and (max-width: 1024px) {
+
+    #hero-big {
+        display:none;
+    }
+
+
+    #hero-small {
+        display:none;
+    }
+
+    #hero-medium {
+        display:flex;
+    }
+
+    
 
    
 .logo {
@@ -1129,8 +1243,9 @@ h1 {
             
                 flex: 1 1 auto;
                 padding: 1%;
-                max-width: 1000px;
+               
                 margin-top: 5rem;
+
             }
 
 .texto-principal {
@@ -1190,6 +1305,11 @@ text-align: center;
 
 
     #hero-big {
+        display: none;
+    }
+
+
+    #hero-medium {
         display: none;
     }
 
@@ -1266,6 +1386,11 @@ text-align: center;
     }
     
 
+    li span {
+        font-size: 1.854rem;
+    
+    }
+
     .logo {
         text-align: center;
         align-content: center;
@@ -1303,7 +1428,6 @@ text-align: center;
                 
                     flex: 1 1 auto;
                     padding: 1%;
-                    max-width: 744px;
                     margin-top: 10rem;
                     justify-content:center;
                     text-align: center;
@@ -1867,5 +1991,5 @@ margin: 0 auto;
       }
 
 
-      
-      
+    
+    
