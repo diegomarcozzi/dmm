@@ -711,12 +711,20 @@ margin-top: 1rem;
             flex-flow: column;
             margin: 0 auto;
             max-width: 70.5ch;
-            padding: 10px 30px 10px 30px;
-            margin-top: 50px;
-            border-radius: 2vh; 
-            background-color: #161721;
+            margin-top: 50px; 
             margin-top: 30rem;
          }
+
+
+
+         .line{
+            width: 100%;
+            max-width: 70.5ch;
+
+            border-bottom: 1px solid #161721;
+            position: absolute;
+            }
+            
 
 
 .box {
@@ -1290,11 +1298,9 @@ text-align: center;
         flex-flow: column;
         margin: 0 auto;
         max-width: 35ch;
-        padding: 10px 30px 10px 30px;
         margin-top: 50px;
-        border-radius: 2vh; 
-        background-color: #161721;
         margin-top: 30rem;
+
      }
 
 
