@@ -1037,6 +1037,10 @@ a.button-email {
     margin-top: 0rem;
 }
 
+.image-resize{
+  width: 50%;
+  height: auto;
+}
 
 
 @media all and (max-width: 1367px) {
