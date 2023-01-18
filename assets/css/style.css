@@ -1215,7 +1215,6 @@ h1 {
     
 
     .work-status  {
-        margin-top: 20%;
                 flex: 1 1 auto;
                 min-width: 600px;
                 padding: 5%;
@@ -1537,7 +1536,6 @@ text-align: center;
 	
 	
         .work-status  {
-            margin-top: 20%;
                     flex: 1 1 auto;
                     min-width: 400px;
                     padding: 5%;
