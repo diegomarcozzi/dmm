@@ -907,7 +907,7 @@ a.otherworks-btn {
 a.button-email {
     display: flex;
     flex-flow: column;
-    border-radius: 2vh;
+    border-radius: 30px;
     align-items: center;
     padding: 5px 5px 5px 5px;
     border: 2px solid #1D1E2C;
