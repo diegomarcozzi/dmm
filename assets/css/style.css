@@ -498,10 +498,9 @@ height: 100%;
             flex-flow: column;
             border-radius: 30px;
             align-items: center;
-            padding: 5px 5px 5px 5px;
-
+            padding: 12px 24px;
             border: 2px solid #1D1E2C;
-            width: 200px;
+            width: auto;
             margin-top: 5rem;
             text-align: center;
             align-content: center;
