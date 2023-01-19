@@ -494,8 +494,7 @@ height: 100%;
 
 
         a.button-status {
-            display: flex;
-            flex-flow: column;
+           
             border-radius: 30px;
             align-items: center;
             padding: 12px 24px;
