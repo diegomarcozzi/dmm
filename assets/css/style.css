@@ -488,12 +488,11 @@ height: 100%;
         a.button-status {
             display: flex;
             flex-flow: column;
-            border-radius: 50% 0 0 50%;
+            border-radius: 30px;
             align-items: center;
             
             border: 2px solid #1D1E2C;
 
-            width: 200px;
             margin-top: 5rem;
             text-align: center;
             align-content: center;
