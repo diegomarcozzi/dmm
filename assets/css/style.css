@@ -508,7 +508,6 @@ height: 100%;
             justify-self: center;
             place-items: center;
             vertical-align: middle;
-            margin: 0 auto;
            }
         
            a.button-status:hover{
