@@ -484,7 +484,12 @@ height: 100%;
 
 .get-status {
     margin-top: -18rem;
-     display: flex;
+    
+}
+
+ a.button-status {
+	 margin-top: -18rem;
+            display: flex;
             flex-flow: column;
             border-radius: 30px;
             align-items: center;
@@ -500,17 +505,6 @@ height: 100%;
             place-items: center;
             vertical-align: middle;
             margin: 0 auto;
-}
-
-       
-
-
-
-
-
-        a.button-status {
-           
-          
            }
         
            a.button-status:hover{
