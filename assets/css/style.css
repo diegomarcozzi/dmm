@@ -489,8 +489,8 @@ height: 100%;
 
  a.button-status {
 	  display: inline-block;
-	  max-width: fit-content;
-	  min-width: fit-content;
+	 box-sizing: border-box;
+	 width: 100%;
 	   
 	 
 	    font-weight: bold;
