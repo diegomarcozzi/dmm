@@ -496,8 +496,9 @@ height: 100%;
             color: #161721;
 	    font-weight: bold;
             padding: 12px 24px 12px 24px;
-            border: 2px solid #1D1E2C;
-           margin: 0 auto;
+            border: 3px solid #1D1E2C;
+           
+	 margin: 0 auto;
            }
         
            a.button-status:hover{
