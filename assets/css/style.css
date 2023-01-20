@@ -504,7 +504,7 @@ height: 100%;
 
  a.button-status {
 	   
-
+		flex: 1;
             
             border-radius: 30px;
             color: #161721;
