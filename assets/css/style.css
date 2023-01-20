@@ -500,7 +500,9 @@ height: 100%;
            
 	 margin: 0 auto;
 	 
-	 
+	             align-items: center;
+            text-align: center;
+
 	 align-content: center;
             align-self: center;
             justify-items: center;
