@@ -483,21 +483,12 @@ height: 100%;
 
 
 .get-status {
-    margin-top: -18rem;
-    
-}
-
- a.button-status {
-	   display: flex;
-	 	justify-content: center;
-
+	
             width: 10%;
-            border-radius: 30px;
-            color: #161721;
-	    font-weight: bold;
-            padding: 12px 24px 12px 24px;
-            border: 3px solid #1D1E2C;
-           
+    margin-top: -18rem;
+      display: flex;
+	 	justify-content: center;
+	border: 3px solid #1D1E2C;
 	 margin: 0 auto;
 	 
 	             align-items: center;
@@ -509,6 +500,18 @@ height: 100%;
             justify-self: center;
             place-items: center;
             vertical-align: middle;
+}
+
+ a.button-status {
+	   
+
+            
+            border-radius: 30px;
+            color: #161721;
+	    font-weight: bold;
+            padding: 12px 24px 12px 24px;
+            
+         
 
            }
         
