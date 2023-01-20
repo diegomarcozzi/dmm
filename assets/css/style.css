@@ -485,11 +485,11 @@ height: 100%;
 .get-status {
 	
     margin-top: -18rem;
-
+display:flex;
 }
 
  a.button-status {
-	 display:flex;
+	 flex: 1;
  padding:0.35em 1.2em;
 	 border:0.1em solid #161721;
  margin:0 0.3em 0.3em 0;
