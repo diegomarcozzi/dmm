@@ -506,15 +506,13 @@ height: 100%;
 
  a.button-status {
 	 flex: 1;
-	    	            border-radius: 30px;
-    line-height: 1.2;
-    padding: 1.1em .75em;
-            
-            color: #161721;
-	    font-weight: bold;
-            
-         
-
+	 width: auto;
+	 border-radius: 30px;
+	 line-height: 1.2;
+         padding: 1.1em .75em;
+         color: #161721;
+	 font-weight: bold;
+           
            }
         
            a.button-status:hover{
