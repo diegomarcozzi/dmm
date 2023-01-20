@@ -483,29 +483,29 @@ height: 100%;
 
 
 .get-status {
-	
     margin-top: -18rem;
-
+    display: flex;
 }
 
  a.button-status {
-	 
-	 width: 10%;
- padding:0.35em 1.2em;
-	 border:0.1em solid #161721;
- margin:0 0.3em 0.3em 0;
- border-radius:1.875em;
- box-sizing: border-box;
- text-decoration:none;
- 
- font-weight:bold;
- color:#161721;
- text-align:center;
- transition: all 0.2s;
-	 
-	 
-  align-items: center;
-  justify-content: center
+            
+            flex-flow: column;
+            border-radius: 1.875em;
+            align-items: center;
+            padding: 0.313em;
+            border: 0.188em solid #1D1E2C;
+            width: 12.5em;
+            margin-top: 5rem;
+            text-align: center;
+            align-content: center;
+            align-self: center;
+            justify-items: center;
+            justify-self: center;
+            place-items: center;
+            vertical-align: middle;
+            margin: 0 auto;
+	 font-weight: bold;
+           }
 	
            
            }
