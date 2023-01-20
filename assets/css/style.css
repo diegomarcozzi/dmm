@@ -490,7 +490,7 @@ height: 100%;
 	 	justify-content: center;
 	border: 3px solid #1D1E2C;
 	 margin: 0 auto;
-	            border-radius: 30px;
+
 
 	 
 	             align-items: center;
@@ -505,8 +505,8 @@ height: 100%;
 }
 
  a.button-status {
-	 
-	    
+	 flex: 1;
+	    	            border-radius: 30px;
     line-height: 1.2;
     padding: 1.1em .75em;
             
