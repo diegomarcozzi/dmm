@@ -503,6 +503,7 @@ height: 100%;
 }
 
  a.button-status {
+	 flex: 0;
 	    max-width: 100%;
     line-height: 1.2;
     padding: 1.1em .75em;
