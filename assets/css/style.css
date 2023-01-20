@@ -498,7 +498,7 @@ height: 100%;
             border: 3px solid #1D1E2C;
            
 	 margin: 0 auto;
-	   display: inline;
+	   display: flex;
 
            }
         
