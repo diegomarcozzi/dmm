@@ -489,9 +489,9 @@ height: 100%;
 
  a.button-status {
 	  display: inline-block;
-	 box-sizing: border-box;
-	 width: 100%;
-	   
+	
+	 
+	width: calc(100% - 2 * 1em);   
 	 
 	    font-weight: bold;
             border-radius: 1.875em;
