@@ -488,6 +488,7 @@ height: 100%;
 }
 
  a.button-status {
+	   display: flex;
 	 	justify-content: center;
 
             width: 10%;
@@ -498,7 +499,7 @@ height: 100%;
             border: 3px solid #1D1E2C;
            
 	 margin: 0 auto;
-	   display: inline;
+	 
 	 
 	 align-content: center;
             align-self: center;
