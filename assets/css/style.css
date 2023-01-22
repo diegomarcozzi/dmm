@@ -893,6 +893,7 @@ font-weight: bold;
 .myemail {
     padding-left: 5rem;
     padding-right: 5rem;
+	font-weight: bold;
 }
 
 a.button-email {
@@ -902,7 +903,8 @@ a.button-email {
     align-items: center;
     padding: 5px 5px 5px 5px;
     border: 3px solid #1D1E2C;
-font-weight: bold;
+    font-weight: bold;
+	
     width: 325px;
     margin-top: 5rem;
     text-align: center;
