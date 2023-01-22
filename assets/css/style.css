@@ -528,7 +528,14 @@ height: 100%;
         }
 
 
-
+      
+.boxed {
+	color: white;
+	font-weight: bold;
+	background-color: #161721;
+	padding: 4px 8px;
+	
+}
 
 
         
@@ -577,8 +584,7 @@ height: 100%;
          } 
 
 
-         
-
+   
 
 
 
