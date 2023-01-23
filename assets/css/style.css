@@ -92,7 +92,7 @@ strong {
 
 strong::before {
   /* Highlight color */
-  background-color: #46b96c;
+  background-color: #69ECCA;
 
   content: "";
   position: absolute;
