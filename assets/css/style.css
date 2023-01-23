@@ -206,8 +206,7 @@ max-width: 600px;
         
 .parrafo-principal {
     max-width: 45.5ch;
-    text-align: justify;
-    text-justify: inter-character;
+    text-align: none;
     margin-top:5rem;
     width: min(90%, 35.5rem);
     font-size: 1.14rem;
