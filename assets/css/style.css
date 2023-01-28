@@ -1061,28 +1061,44 @@ a.button-email {
 
 .skills-tag {
 	
-	display: flex;
-    	justify-content: flex-start;
-   	 width: 90%;
+	 display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
 
 }
 
 
 .button-skills {
-display: inline-block;
-	width: auto;
-    background-color: transparent; 
-    padding: 0.35em 1.2em;
-    margin: 0 0.5em 0.5em 0;
-    border: 3px solid #1D1E2C;
+-webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+
+	border: 3px solid #1D1E2C;
     border-radius: 30px;
     font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
-		float: left;
+	
+	
 }
 
 
