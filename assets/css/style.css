@@ -1063,15 +1063,7 @@ a.button-email {
 	display: flex;
 flex-direction: row;
 align-items: flex-start;
-	padding: 3px 5px;
-	gap: 5px;
 
-width: 62.68px;
-height: 16.84px;
-
-border: 3px solid #1D1E2C;
-border-radius: 30px;
-	font-weight: bold;
 
 }
 
@@ -1086,8 +1078,7 @@ background-color: none;
 		padding: 3px 5px;
 	gap: 5px;
 
-width: 62.68px;
-height: 16.84px;
+width: auto;
 
 border: 3px solid #1D1E2C;
 border-radius: 30px;
