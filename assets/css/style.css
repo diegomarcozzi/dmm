@@ -1063,6 +1063,7 @@ a.button-email {
 display: flex;
   justify-content: flex-start;
  width: min(90%, 70.5rem);
+		  max-width: 45.5ch;
     
 
 }
@@ -1073,7 +1074,6 @@ box-sizing: border-box;
 	display: inline-block;
 background-color: none;
 	padding:0.35em 1.2em;
-		
 margin:0 0.5em 0.5em 0;
 border: 3px solid #1D1E2C;
 border-radius: 30px;
