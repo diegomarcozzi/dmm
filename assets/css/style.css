@@ -1069,7 +1069,7 @@ display: flex;
 
 
 .button-skills {
-
+box-sizing: border-box;
 	display: inline-block;
 background-color: none;
 	padding:0.35em 1.2em;
@@ -1083,8 +1083,7 @@ border-radius: 30px;
   text-decoration: none;
   
   font-size: 16px;
-	margin-right: 0.5em;
-	margin-bottom: 0.5em;
+	
 	
 	float: left;
 	
