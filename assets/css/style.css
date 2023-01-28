@@ -459,6 +459,11 @@ margin-top: -10rem;
 }
 
 
+.portfolio-gallery {
+	align-content: flex-start;
+}
+
+
 .bg4 {
     
 
@@ -838,12 +843,13 @@ margin-top: 1rem;
 
 .gallery-wrapper::-webkit-scrollbar {
     display: none; /* Chrome, Safari and Opera */
-	
+	align-content: flex-start;
   }
 
 .gallery-wrapper {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+	align-content: flex-start;
  
 }
 
