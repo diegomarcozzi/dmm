@@ -1060,9 +1060,7 @@ a.button-email {
 
 
 .skills-tag {
-	display: flex;
-flex-direction: row;
-align-items: flex-start;
+
 
 
 }
@@ -1070,12 +1068,10 @@ align-items: flex-start;
 
 .button-skills {
 
-	flex: none;
-order: 0;
-flex-grow: 0;
+	
 background-color: none;
 	
-		padding: 3px 5px;
+		padding: 15px 32px;
 	gap: 5px;
 
 width: auto;
@@ -1083,6 +1079,11 @@ width: auto;
 border: 3px solid #1D1E2C;
 border-radius: 30px;
 	font-weight: bold;
+	
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 	
 }
 
