@@ -814,16 +814,16 @@ margin-top: 1rem;
 	
 
     text-align: center;  
-    align-content: center;
+    
     align-self: center;
     justify-items: center;
     justify-self: center;
     place-items: center;
     vertical-align: middle;
     line-height: 100%;
-    background: url(../../images/bg4.svg)
+    background: url(../../images/bg4.svg);
 	    
-	    
+	     align-content: flex-start;
 
 
 }
@@ -838,13 +838,13 @@ margin-top: 1rem;
 
 .gallery-wrapper::-webkit-scrollbar {
     display: none; /* Chrome, Safari and Opera */
-	 align-content: flex-start;
+	
   }
 
 .gallery-wrapper {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
- align-content: flex-start;
+ 
 }
 
 
