@@ -1060,9 +1060,8 @@ a.button-email {
 
 
 .skills-tag {
-	display: flex;
-    	justify-content: flex-start;
-   	 width: 90%;
+	
+	width: min(90%, 70.5rem);
 
 }
 
@@ -1080,6 +1079,7 @@ display: inline-block;
     font-size: 16px;
     margin-right: 0.5em;
     margin-bottom: 0.5em;
+		float: left;
 }
 
 
