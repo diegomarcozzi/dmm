@@ -1060,36 +1060,26 @@ a.button-email {
 
 
 .skills-tag {
-display: flex;
-  justify-content: flex-start;
- width: min(90%, 70.5rem);
-		
-    
+	display: flex;
+    	justify-content: flex-start;
+   	 width: 90%;
 
 }
 
 
 .button-skills {
-
-	display: inline-block;
-background-color: none;
-	padding:0.35em 1.2em;
-margin:0 0.5em 0.5em 0;
-border: 3px solid #1D1E2C;
-border-radius: 30px;
-	font-weight: bold;
-	
-  text-align: center;
-  text-decoration: none;
-  
-  font-size: 16px;
-	margin-right: 0.5em;
-	margin-bottom: 0.5em;
-
-	
-	float: left;
-	
-	
+display: inline-block;
+    background-color: transparent; 
+    padding: 0.35em 1.2em;
+    margin: 0 0.5em 0.5em 0;
+    border: 3px solid #1D1E2C;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 
