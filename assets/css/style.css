@@ -454,6 +454,8 @@ margin-top: -10rem;
     
     background-size: auto;
 
+	 align-content: flex-start;
+	
 }
 
 
@@ -820,6 +822,8 @@ margin-top: 1rem;
     vertical-align: middle;
     line-height: 100%;
     background: url(../../images/bg4.svg)
+	    
+	    
 
 
 }
@@ -827,16 +831,20 @@ margin-top: 1rem;
 
 .gallery {
     padding: 20px;
+
+ align-content: flex-start;
 }
 
 
 .gallery-wrapper::-webkit-scrollbar {
     display: none; /* Chrome, Safari and Opera */
+	 align-content: flex-start;
   }
 
 .gallery-wrapper {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+ align-content: flex-start;
 }
 
 
