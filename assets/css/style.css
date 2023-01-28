@@ -1061,13 +1061,14 @@ a.button-email {
 
 .skills-tag {
 	
-	width: min(90%, 70.5rem);
+	
 
 }
 
 
 .button-skills {
 display: inline-block;
+	width: min(90%, 70.5rem);
     background-color: transparent; 
     padding: 0.35em 1.2em;
     margin: 0 0.5em 0.5em 0;
