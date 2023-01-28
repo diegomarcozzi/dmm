@@ -1061,18 +1061,19 @@ a.button-email {
 
 .skills-tag {
 
-
+ width: min(90%, 70.5rem);
+    margin: 0 auto;
 
 }
 
 
 .button-skills {
 
-	
+	display: inline-block;
 background-color: none;
 	
-		padding: 15px 32px;
-	gap: 5px;
+		padding: 16px 32px;
+	gap: 24px;
 
 width: auto;
 
@@ -1082,8 +1083,10 @@ border-radius: 30px;
 	
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  
   font-size: 16px;
+	
+	
 	
 }
 
