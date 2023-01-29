@@ -597,7 +597,7 @@ height: 100%;
         width: min(90%, 70.5rem);
         margin-top: 20rem;
         max-width: 70.5ch;
-        border-radius: 50px;
+        
         
 	
         text-justify: inter-word;
@@ -616,7 +616,7 @@ height: 100%;
            width: min(90%, 70.5rem);
            margin-top: 20rem;
            max-width: 70.5ch;
-        border-radius: 50px;
+        
         } 
 
        
