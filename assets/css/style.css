@@ -599,6 +599,8 @@ height: 100%;
         max-width: 70.5ch;
         border-radius: 50px;
         
+	
+        text-justify: inter-word;
             
 
         } 
