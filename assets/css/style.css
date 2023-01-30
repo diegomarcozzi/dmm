@@ -224,13 +224,15 @@ max-width: 600px;
 
             }
         
-.parrafo-principal {
+
+  .parrafo-principal {
     max-width: 45.5ch;
     text-align: none;
-    margin-top:5rem;
+    margin-top:0;
     width: min(90%, 35.5rem);
-    font-size: 1.14rem;
+    font-size: 0.8750em;
 }
+
 
 
             .titulo-principal{
