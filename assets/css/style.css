@@ -2363,4 +2363,44 @@ flex-grow: 0;
 }
 
 
-    
+ 
+
+
+
+
+
+
+/*back to home cta*/
+.backtohomecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+    a.backtohome {
+        display: inline-block;
+        vertical-align: middle;
+  text-align: center;
+       
+      
+       
+          font-weight: bold;
+              border-radius: 1.875em;
+             
+              padding: 0.313em 1em;
+              border: 0.188em solid #1D1E2C;
+          color: #1D1E2C;
+       
+             }
+      
+             
+          
+             a.backtohome:hover{
+              -webkit-text-fill-color:white;
+              background-color: #161721;
+  
+              }
+  
+}
