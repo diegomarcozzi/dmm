@@ -2178,4 +2178,189 @@ margin: 0 auto;
 
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*contact form*/
+
+.containermaster {
+    display:block;
+    margin: 0 auto;
+    width: min(90%, 70.5rem);
+    margin-top: 10rem;
+    max-width: 70.5ch;
+ 
+}
+
+  .containerform {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    margin: 0 auto;
+
+    position: relative;
+    width: 400px;
+    height: 540px;
+
+  }
+
+  .containerform2 {
+    flex: none;
+order: 0;
+flex-grow: 0;
+  }
+
+  .formtitle {
+    display: flex;
+flex-direction: row;
+
+
+align-items: center;
+justify-content: center;
+
+
+width: 400px;
+height: 136px;
+
+background: #161721;
+border-radius: 24px 24px 0px 0px;
+  }
+
+
+  .formtitle2 {
+    flex: none;
+order: 0;
+flex-grow: 0;
+  }
+
+
+  .formtitle3 {
+    width: 209px;
+height: 56px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+
+color: #FCFCFC;
+  }
+
+
+.containerall {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 400px;
+height: 404px;
+}
+
+.containerall2{ 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+  .namecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 24px 24px;
+    gap: 10px;
+    
+    width: 400px;
+    height: 72px;
+    
+    background: #161721;
+    border-radius: 0px;
+  }
+
+
+  
+  .namecontainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 24px 24px 24px;
+    gap: 24px;
+    
+    width: 400px;
+    height: auto;
+    
+    background: #161721;
+    border-radius: 16px;
+
+  }
+
+  .namecontainer3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    
+    width: 352px;
+    height: 48px;
+    
+    background: #FCFCFC;
+    border-radius: 8px;
+  }
+
+.namecontainer4 {
+    flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.formsendbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+ 
+    
+    width: 400px;
+    height: auto;
+    
+    background: #161721;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.formsendbutton2 {
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.formsendbutton3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    
+    width: 352px;
+    height: 48px;
+    
+    background: #69ECCA;
+    border-radius: 8px;
+    
+}
+
+
     
