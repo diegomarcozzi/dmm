@@ -2190,8 +2190,7 @@ margin: 0 auto;
 
 
 
-
-  /*contact form*/
+/*contact form*/
 
 .containermaster {
     display:block;
@@ -2210,7 +2209,7 @@ margin: 0 auto;
     margin: 0 auto;
 
     position: relative;
-    width: 400px;
+    width: 360px;
     height: 540px;
 
   }
@@ -2230,7 +2229,7 @@ align-items: center;
 justify-content: center;
 
 
-width: 400px;
+width: 360px;
 height: 136px;
 
 background: #161721;
@@ -2265,7 +2264,7 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 400px;
+width: 360px;
 height: 404px;
 }
 
@@ -2282,7 +2281,7 @@ height: 404px;
     padding: 0px 24px 24px;
     gap: 10px;
     
-    width: 400px;
+    width: 360px;
     height: 72px;
     
     background: #161721;
@@ -2298,7 +2297,7 @@ height: 404px;
     padding: 0px 24px 24px 24px;
     gap: 24px;
     
-    width: 400px;
+    width: 360px;
     height: auto;
     
     background: #161721;
@@ -2312,7 +2311,7 @@ height: 404px;
     align-items: flex-start;
     padding: 16px;
     
-    width: 352px;
+    width: 312px;
     height: 48px;
     
     background: #FCFCFC;
@@ -2333,7 +2332,7 @@ flex-grow: 0;
    
  
     
-    width: 400px;
+    width: 360px;
     height: auto;
     
     background: #161721;
@@ -2354,7 +2353,7 @@ flex-grow: 0;
     padding: 8px;
     gap: 10px;
     
-    width: 352px;
+    width: 312px;
     height: 48px;
     
     background: #69ECCA;
@@ -2362,8 +2361,6 @@ flex-grow: 0;
     
 }
 
-
- 
 
 
 
@@ -2403,4 +2400,3 @@ flex-grow: 0;
   
               }
   
-}
