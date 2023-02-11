@@ -891,27 +891,31 @@ margin-top: 1rem;
 
 
 
+
+
 .otherworks {
-    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
     padding-bottom: 10rem;
-    padding-left:  5rem;
-    padding-right: 5rem;
+
 }
 
 a.otherworks-btn {
-    display: flex;
-    flex-flow: column;
-    border-radius: 30px;
-    align-items: center;
-    
-    padding: 5px 5px 5px 5px;
-    border: 3px solid #1D1E2C;
-font-weight: bold;
-    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
     text-align: center;
-    margin: 0 auto;
-
+    font-weight: bold;
+    border-radius: 1.875em;
+    padding: 0.5em 1em;
+    border: 0.188em solid #1D1E2C;
+    color: #1D1E2C;
    }
+
+
+
+
 
    a.otherworks-btn:hover{
     -webkit-text-fill-color:white;
