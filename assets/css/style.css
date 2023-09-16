@@ -2409,78 +2409,66 @@ flex-grow: 0;
       margin: 2.5vw auto;
     }
 
-    .grid-item {
-      padding: 5px;
-      box-sizing: border-box;
-      margin: 5px;
-      object-fit: contain;
-	    height: auto;
+   
 
-    }
-
-    .grid-item--width2 { 
-      padding: 5px;
-      box-sizing: border-box;
-      margin: 5px;
-	      object-fit: contain;
-	    height: auto;
-
-
-    }
-
-    @media (min-width: 500px) {
-      .grid-item {
-        width: 50%;
-	        object-fit: contain;
-
-      }
-      .grid-item--width2 {
-        width: 100%;
-	        object-fit: contain;
-
-      }
-    }
-
-    @media (min-width: 1000px) {
-      .grid-item {
-        width: 33.333%;
-	        object-fit: contain;
-
-      }
-      .grid-item--width2 {
-        width: 100%;
-	        object-fit: contain;
-
-      }
-    }
-
-    @media (min-width: 1700px) {
-      .grid-item {
-        width: 25%;
-	        object-fit: contain;
-
-      }
-    }
-
-    @media (min-width: 2100px) {
-      .grid-item {
-        width: 20%;
-	        object-fit: contain;
-
-      }
-      .grid-item--width2 {
-        width: 100%;
-	        object-fit: contain;
-
-      }
-    }
-
-
-
-@supports (-ms-ime-align: auto) {
+  
+  
+  
   .grid-item {
-    display: inline-block;
-    vertical-align: top;
+    padding: 5px;
+    box-sizing: border-box;
+      display: inline;
+      max-width: 200px;
+    }
+  
+  .grid-item--width2 { 
+    
+    padding: 5px;
+    box-sizing: border-box;
+      display: inline;
+      min-width: 600px; 
+    }
+
+    .grid-item3 {
+        padding: 0;
+        box-sizing: border-box;
+          display: inline;
+          max-width: 600px;
+        }
+
+  
+  
+  @media (min-width: 500px) {
+    .grid-item {
+      width: 50%;
+    }
+    .grid-item--width2 {
+        width: 100%;
+    }
   }
-}
+  
+  @media (min-width: 1000px) {
+    .grid-item {
+      width: 33.333%;
+    }
+    .grid-item--width2 {
+        width: 100%;
+    }
+  }
+  
+  @media (min-width: 1700px) {
+    .grid-item {
+      width: 25%;
+    }
+  }
+  
+  @media (min-width: 2100px) {
+    .grid-item {
+      width: 20%;
+    }
+    .grid-item--width2 {
+        width: 100%;
+    }
+  }
+
   
