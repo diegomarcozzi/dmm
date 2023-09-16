@@ -2454,4 +2454,12 @@ flex-grow: 0;
       }
     }
 
+
+
+@supports (-ms-ime-align: auto) {
+  .grid-item {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
   
