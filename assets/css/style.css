@@ -2413,44 +2413,62 @@ flex-grow: 0;
       padding: 5px;
       box-sizing: border-box;
       margin: 5px;
+      object-fit: contain;
+
     }
 
     .grid-item--width2 { 
       padding: 5px;
       box-sizing: border-box;
       margin: 5px;
+	      object-fit: contain;
+
     }
 
     @media (min-width: 500px) {
       .grid-item {
         width: 50%;
+	        object-fit: contain;
+
       }
       .grid-item--width2 {
         width: 100%;
+	        object-fit: contain;
+
       }
     }
 
     @media (min-width: 1000px) {
       .grid-item {
         width: 33.333%;
+	        object-fit: contain;
+
       }
       .grid-item--width2 {
         width: 100%;
+	        object-fit: contain;
+
       }
     }
 
     @media (min-width: 1700px) {
       .grid-item {
         width: 25%;
+	        object-fit: contain;
+
       }
     }
 
     @media (min-width: 2100px) {
       .grid-item {
         width: 20%;
+	        object-fit: contain;
+
       }
       .grid-item--width2 {
         width: 100%;
+	        object-fit: contain;
+
       }
     }
 
