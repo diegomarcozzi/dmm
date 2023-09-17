@@ -612,7 +612,6 @@ height: 100%;
         .myrole{
            display: flex;
            flex-flow: column;
-           text-align: justify;
            margin: 0 auto;
            width: min(90%, 70.5rem);
            margin-top: 20rem;
@@ -747,7 +746,6 @@ margin-top: 1rem;
          .solving{
             display: flex;
             flex-flow: column;
-            text-align: justify;
             margin: 0 auto;
             width: min(90%, 70.5rem);
             margin-top: 20rem;
@@ -760,7 +758,6 @@ margin-top: 1rem;
          .seedphrase0text {
             display: flex;
             flex-flow: column;
-            text-align: justify;
             margin: 0 auto;
             width: min(90%, 70.5rem);
             max-width: 70.5ch;
@@ -773,7 +770,6 @@ margin-top: 1rem;
          .greybox {
             display: flex;
             flex-flow: column;
-            text-align: justify;
             margin: 0 auto;
             max-width: 70.5ch;
             padding: 10px 30px 10px 30px;
