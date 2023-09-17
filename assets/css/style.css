@@ -249,8 +249,8 @@ max-width: 600px;
                 flex-flow: row nowrap;
                 margin: 0 auto;
                 width: min(90%, 70.5rem);
-                margin-top: 10rem;
-                margin-bottom: 10rem;
+                margin-top: 8rem;
+                margin-bottom: 8rem;
                 justify-content: space-between;
             
             }
@@ -1252,9 +1252,9 @@ a.button-email {
 
 
     .hero {
-        margin-top: 10rem;
+        margin-top: 8rem;
        
-        margin-bottom: 10rem;
+        margin-bottom: 8rem;
     }
 
 
@@ -1390,12 +1390,12 @@ h1 {
 
 
 .hero {
-    margin-top: 10rem;
+    margin-top: 8rem;
     display: flex;
     flex-flow: row wrap-reverse;
     margin: 0 auto;
     width: min(90%, 70.5rem);
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 
 
     
@@ -1573,12 +1573,12 @@ text-align: center;
 
  
     .hero {
-        margin-top: 10rem;
+        margin-top: 8rem;
         display: flex;
         flex-flow: row wrap-reverse;
         margin: 0 auto;
         width: min(90%, 70.5rem);
-        margin-bottom: 10rem;
+        margin-bottom: 8rem;
         margin: 0 auto;
 
        
