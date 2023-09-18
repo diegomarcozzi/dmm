@@ -81,6 +81,72 @@ Designed and coded by DMM
            
                     <h1><span>I build user-friendly things.</span></h1>
 
+			 <script>
+                          const phrases = [
+                            "I lead and manage design teams with multiple disciplines including Product Design, Brand Creative and Research.",
+                          "I craft product visions, strategies, and user experiences.",                                       
+                            "I build frictionless interactions and user-friendly flows.",
+                            "I lead design projects that solve complex problems.",
+                            "I execute product strategies with cross-functional teams.",
+                            "I lead design sprints and workshops.",
+                            "I design intuitive experiences.",
+                            "I balance user needs with business goals.",
+                            "I hire and improve teams.",
+                            "I build design systems.",
+                            "I make products easy to use.",
+                            "I track the right metrics and identify UX problem areas.",
+
+
+                            
+                          ];
+                      
+                          let i = 0;
+                          let j = 0;
+                          let currentPhrase = "";
+                          let isDeleting = false;
+                      
+                          function type() {
+                            if (i === phrases.length) {
+                              i = 0;
+                            }
+                      
+                            const phrase = phrases[i];
+                      
+                            if (isDeleting) {
+                              currentPhrase = phrase.substring(0, currentPhrase.length - 1);
+                            } else {
+                              currentPhrase = phrase.substring(0, currentPhrase.length + 1);
+                            }
+                      
+                            document.querySelector(".typing-text").textContent = currentPhrase;
+                      
+                            let delta = 50 - Math.random() * 100;
+                      
+                            if (isDeleting) {
+                              delta /= 2;
+                            }
+                      
+                            if (!isDeleting && currentPhrase === phrase) {
+                              delta = 4000;
+                              isDeleting = true;
+                            } else if (isDeleting && currentPhrase === "") {
+                              isDeleting = false;
+                              i++;
+                            }
+                      
+                            setTimeout(type, delta);
+                          }
+                      
+                          // Adjust the delay time here (in milliseconds)
+                          const delayTime = 5;
+                      
+                          setTimeout(() => {
+                            type();
+                          }, delayTime);
+                        </script>
+			
+			
+			<!--
                                              <div class="parrafo-principal">
                                              <p>
 				Hi! I'm <strong>Diego.</strong> 
@@ -88,6 +154,7 @@ Designed and coded by DMM
                                 and <b>user experiences</b> through <b>interaction</b> and <b>interface design</b>.                                                  
 
                                              </p>
+						     -->
 			</div>
                 </div>
             </div>
@@ -98,9 +165,42 @@ Designed and coded by DMM
             <img src="images/3dbg2b_300.png" id="hero-small" alt="">
 
         </div>
-        
-        </div>
 
+
+
+ <div id="logos-home-page">
+          <div class="slider">
+            <div class="slide-track">
+              <div class="slide"><img  src="images/logo1.svg" style="max-width: 175px; min-width: 175px;"  /></div>
+              <div class="slide"><img  src="images/logo2.svg" style="max-width: 175px; min-width: 175px" /></div>
+              <div class="slide"><img  src="images/logo3.svg" style="max-width: 175px; min-width: 175px"/></div>
+              <div class="slide"><img  src="images/logo4.svg" style="max-width: 175px; min-width: 175px"/></div>
+              <div class="slide"><img  src="images/logo5.svg" style="max-width: 175px; min-width: 175px"/></div>
+              <div class="slide"><img  src="images/logo6.svg" style="max-width: 175px; min-width: 175px"/></div>
+        <div class="slide"><img  src="images/logo8.svg" style="max-width: 175px; min-width: 175px" /></div>
+        <div class="slide"><img  src="images/logo9.svg" style="max-width: 175px; min-width: 175px"/></div>
+        <div class="slide"><img  src="images/logo10.svg" style="max-width: 175px; min-width: 175px"/></div>
+        <div class="slide"><img  src="images/logo11.svg" style="max-width: 175px; min-width: 175px" /></div>
+        <div class="slide"><img  src="images/logo12.svg" style="max-width: 175px; min-width: 175px" /></div>
+        <div class="slide"><img  src="images/logo13.svg" style="max-width: 175px; min-width: 175px"/></div>
+        <div class="slide"><img  src="images/logo1.svg" style="max-width: 175px; min-width: 175px;"  /></div>
+        <div class="slide"><img  src="images/logo2.svg" style="max-width: 175px; min-width: 175px" /></div>
+        <div class="slide"><img  src="images/logo3.svg" style="max-width: 175px; min-width: 175px"/></div>
+        <div class="slide"><img  src="images/logo4.svg" style="max-width: 175px; min-width: 175px"/></div>
+        <div class="slide"><img  src="images/logo5.svg" style="max-width: 175px; min-width: 175px"/></div>
+        <div class="slide"><img  src="images/logo6.svg" style="max-width: 175px; min-width: 175px"/></div>
+  <div class="slide"><img  src="images/logo8.svg" style="max-width: 175px; min-width: 175px" /></div>
+  <div class="slide"><img  src="images/logo9.svg" style="max-width: 175px; min-width: 175px"/></div>
+  <div class="slide"><img  src="images/logo10.svg" style="max-width: 175px; min-width: 175px"/></div>
+  <div class="slide"><img  src="images/logo11.svg" style="max-width: 175px; min-width: 175px" /></div>
+  <div class="slide"><img  src="images/logo12.svg" style="max-width: 175px; min-width: 175px" /></div>
+  <div class="slide"><img  src="images/logo13.svg" style="max-width: 175px; min-width: 175px"/></div>
+      </div>
+    </div>
+  </div>
+
+	
+       <!-- </div> 
             
            
 
@@ -124,6 +224,7 @@ Designed and coded by DMM
                     </div> 
 	      </div>
     
+-->
 
            
 <div class="box">
