@@ -79,7 +79,7 @@ h5 {
 
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #161721;
@@ -251,8 +251,8 @@ max-width: 600px;
                 flex-flow: row nowrap;
                 margin: 0 auto;
                 width: min(90%, 70.5rem);
-                margin-top: 8rem;
-                margin-bottom: 8rem;
+                margin-top: 5rem;
+                margin-bottom: 5rem;
                 justify-content: space-between;
             
             }
@@ -410,7 +410,7 @@ max-width: 600px;
     text-align: left;
     width: cover;
     margin: 0 auto;
-    margin-bottom: 15%;
+    margin-bottom: 5rem;
 
 
     background: url(../../images/bg5.svg);
@@ -1565,12 +1565,12 @@ text-align: center;
 
  
     .hero {
-        margin-top: 8rem;
+        margin-top: 5rem;
         display: flex;
         flex-flow: row wrap-reverse;
         margin: 0 auto;
         width: min(90%, 70.5rem);
-        margin-bottom: 8rem;
+        margin-bottom: 5rem;
         margin: 0 auto;
 
        
@@ -1581,7 +1581,7 @@ text-align: center;
                 
                     flex: 1 1 auto;
                     padding: 1%;
-                    margin-top: 10rem;
+                    margin-top: 5rem;
                     justify-content:center;
                     text-align: center;
                     align-content: center;
@@ -1623,8 +1623,8 @@ text-align: center;
         text-align: left;
         width: cover;
         margin: 0 auto;
-        margin-bottom: 15%;
-    margin-top: 10rem;
+        margin-bottom: 5rem;
+    margin-top: 5rem;
     
         background: url(../../images/bg5.svg);
         background-color: #161721 ;
@@ -1776,8 +1776,8 @@ margin: 0 auto;
     text-align: left;
     width: cover;
     margin: 0 auto;
-    margin-bottom: 15%;
-margin-top: 10rem;
+    margin-bottom: 5rem;
+margin-top: 5rem;
 
     background: url(../../images/bg5.svg);
     background-color: #161721 ;
