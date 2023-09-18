@@ -423,8 +423,8 @@ max-width: 600px;
 
 .work-title2 {
 text-align: center;
-padding-top: 20%;
-padding-bottom: 5%; 
+padding-top: 5rem;
+padding-bottom: 5rem; 
 }
 
 
@@ -432,7 +432,7 @@ padding-bottom: 5%;
     text-align: left;
     width: cover;
     margin: 0 auto;
-    margin-bottom: 15%;
+    margin-bottom: 5rem;
 margin-top: -10rem;
 
     background: url(../../images/bg5.svg);
@@ -1623,9 +1623,10 @@ text-align: center;
         text-align: left;
         width: cover;
         margin: 0 auto;
-        margin-bottom: 5rem;
-    margin-top: 5rem;
-    
+/*
+	    margin-bottom: 5rem;
+margin-top: 5rem;
+  */  
         background: url(../../images/bg5.svg);
         background-color: #161721 ;
         background-size:cover;
@@ -1635,8 +1636,8 @@ text-align: center;
     }
     .work-title2 {
         text-align: center;
-        padding-top: 40%;
-        padding-bottom: 5%; 
+        padding-top: 5rem;
+        padding-bottom: 5rem; 
         margin: 0 auto;
         width: min(90%, 20rem);
 
@@ -1776,9 +1777,10 @@ margin: 0 auto;
     text-align: left;
     width: cover;
     margin: 0 auto;
+	/*
     margin-bottom: 5rem;
 margin-top: 5rem;
-
+*/
     background: url(../../images/bg5.svg);
     background-color: #161721 ;
     background-size:cover;
@@ -1788,8 +1790,8 @@ margin-top: 5rem;
 }
 .work-title2 {
     text-align: center;
-    padding-top: 40%;
-    padding-bottom: 5%; 
+    padding-top: 5rem;
+    padding-bottom: 5rem; 
     margin: 0 auto;
     width: min(90%, 20rem);
 
