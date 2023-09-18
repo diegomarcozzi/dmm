@@ -2407,7 +2407,7 @@ flex-grow: 0;
   
   
  .grid-item {
-  display: inline-block; 
+  display: block; 
   padding: 0.5rem;
   box-sizing: border-box;
   max-width: 12.5rem;
@@ -2415,7 +2415,7 @@ flex-grow: 0;
 
 
 .grid-item--width2 {
-  display: inline-block; 
+  display: block; 
   padding: 0.5rem;
   box-sizing: border-box;
   max-width: 37.5rem;
