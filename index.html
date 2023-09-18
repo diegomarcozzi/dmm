@@ -185,12 +185,230 @@ Designed and coded by DMM
             
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
+<div class="grid">
+
+
+  <div class="grid-item">
+    <img src="images/extension_home.png"/>
+  </div>
+
+  <div class="grid-item">
+	<img src="images/extension_activity.png"/>
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/extension_activityempty.png"/>
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/extension_connect.png" />
+  </div>
+
+
+  <div class="grid-item">
+	<img  src="images/extension_speedup.png" />
+  </div>
+
+  <div class="grid-item">
+	<img  src="images/extension_nft.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/extension_nftdetail.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/extension_sendconfirmed.png" />
+  </div>
+
+  <div class="grid-item">
+	<img  src="images/extension_sendpending.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/extension_sendfailed.png" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img src="images/explorer_marketindicators.png" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img src="images/explorer_marketindicators_sending addresses.png" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img  src="images/cowboys_web.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/cowboys_ios.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/cowboys_ctaenabled.webp" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img  src="images/cowboys_popup.png" />
+  </div>
+
+
+  <div class="grid-item">
+    <img  src="images/cowboys_background.webp" />
+  </div>
+
+  
+  <div class="grid-item">
+    <img  src="images/wallet_referrals.png" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img src="images/exchange_trades.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/exchange_positions.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/exchange_trade.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/exchange_collateralnotification.png" />
+  </div>
+
+
+  <div class="grid-item">
+    <img  src="images/exchange_addcollateral.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/exchange_timeout.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/exchange_slider.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/exchange_limitctadisabled.png" />
+  </div>
+  
+  <div class="grid-item">
+    <img  src="images/exchange_limitstoploss_enabled.png" />
+  </div>
+  
+  <div class="grid-item">
+    <img  src="images/exchange_limit_preview.png" />
+  </div>
+  
+  <div class="grid-item grid-item--width2">
+    <img  src="images/iconguidelines.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/nike.gif" />
+  </div>
+  
+  <div class="grid-item grid-item--width2">
+    <img  src="images/nike.jpg" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img  src="images/status_10.gif" />
+  </div>
+  
+  <div class="grid-item grid-item--width2">
+    <img  src="images/status_9.jpg" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img  src="images/status12.webp" />
+  </div>
+  
+  <div class="grid-item grid-item--width2">
+    <img  src="images/status11.gif" />
+  </div>
+
+
+  <div class="grid-item grid-item--width2">
+    <img  src="images/capri_1.png" />
+  </div>
+
+
+  <div class="grid-item">
+    <img  src="images/capri.webp" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img  src="images/crypto_exchange.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/exchange.gif" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/gamestop5.jpg" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/vbsplash.webp" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img  src="images/apt2b2.png" />
+  </div>
+  
+  <div class="grid-item">
+    <img  src="images/apt2b.gif" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img  src="images/redeem.png" />
+  </div>
+
+  <div class="grid-item">
+    <img  src="images/redeem.gif" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img  src="images/johnson.jpg" />
+  </div>
+
+  <div class="grid-item grid-item--width2">
+    <img  src="images/pms4.png" />
+  </div>
+
+</div>
+
+
+<script>
+$(".grid").imagesLoaded(function() {
+    $(".grid").masonry({
+      itemSelector: ".grid-item",
+	  
+    });
+  });
+</script>
 
 
 
 
 
-	    
+
+
+
+	 <!--   
             <div class="portfolio-gallery-wrapper" >
                <div class="column" >
                 <div class="portfolio-container" >
@@ -270,6 +488,8 @@ Designed and coded by DMM
 
 
             </div>
+
+	-->
 
 
 	    
