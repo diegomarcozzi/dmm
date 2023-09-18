@@ -92,7 +92,74 @@ Designed and coded by DMM
                                 and <b>user experiences</b> through <b>interaction</b> and <b>interface design</b>.   
 
                                              </p>
-						     
+
+                        <script>
+                          const phrases = [
+                            "I lead and manage design teams with multiple disciplines including Product Design, Brand Creative and Research.",
+                          "I craft product visions, strategies, and user experiences.",                                       
+                            "I build frictionless interactions and user-friendly flows.",
+                            "I lead design projects that solve complex problems.",
+                            "I execute product strategies with cross-functional teams.",
+                            "I lead design sprints and workshops.",
+                            "I design intuitive experiences.",
+                            "I balance user needs with business goals.",
+                            "I hire and improve teams.",
+                            "I build design systems.",
+                            "I make products easy to use.",
+                            "I track the right metrics and identify UX problem areas.",
+
+
+                            
+                          ];
+                      
+                          let i = 0;
+                          let j = 0;
+                          let currentPhrase = "";
+                          let isDeleting = false;
+                      
+                          function type() {
+                            if (i === phrases.length) {
+                              i = 0;
+                            }
+                      
+                            const phrase = phrases[i];
+                      
+                            if (isDeleting) {
+                              currentPhrase = phrase.substring(0, currentPhrase.length - 1);
+                            } else {
+                              currentPhrase = phrase.substring(0, currentPhrase.length + 1);
+                            }
+                      
+                            document.querySelector(".typing-text").textContent = currentPhrase;
+                      
+                            let delta = 50 - Math.random() * 100;
+                      
+                            if (isDeleting) {
+                              delta /= 2;
+                            }
+                      
+                            if (!isDeleting && currentPhrase === phrase) {
+                              delta = 4000;
+                              isDeleting = true;
+                            } else if (isDeleting && currentPhrase === "") {
+                              isDeleting = false;
+                              i++;
+                            }
+                      
+                            setTimeout(type, delta);
+                          }
+                      
+                          // Adjust the delay time here (in milliseconds)
+                          const delayTime = 5;
+                      
+                          setTimeout(() => {
+                            type();
+                          }, delayTime);
+                        </script>
+
+
+
+	
 			</div>
                 </div>
             </div>
