@@ -45,7 +45,7 @@ h2 {
 }
 
 li span {
-    font-size: 2.103rem;
+    font-size: 1.3rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     color: #161721;
@@ -109,7 +109,7 @@ strong::before {
 
 
 li {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #161721;
@@ -1185,7 +1185,7 @@ a.button-email {
     }
     
     li span {
-        font-size: 2.6rem;
+        font-size: 1.3rem;
         font-family: 'Open Sans', sans-serif;
         font-weight: 900;
         color: #161721;
@@ -1534,14 +1534,14 @@ text-align: center;
 
 
     li {
-        font-size: 1.69rem;
+        font-size: 1.05rem;
         
     
     }
     
 
     li span {
-        font-size: 1.69rem;
+        font-size: 1.05rem;
     
     }
 
