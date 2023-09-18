@@ -25,7 +25,7 @@ body, html {
 
 
 h1 {
-    font-size: 7rem;
+    font-size: 5.75rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     color: #161721;
@@ -39,46 +39,53 @@ h1 span {
 
 
 h2 {
-    font-size: 1.27rem;
-    font-family: 'Lato', sans-serif;
+    font-size: 4.25rem;
+    font-family: 'Raleway', sans-serif;
     font-weight: 900;
     color: #161721;
 
 }
 
 h3 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+    color: #161721;
+
+}
+
+
+
+li  {
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     color: #161721;
 
 }
 
 
 li span {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     color: #161721;
 
 }
 
 
 
-
-
-
-
-h6 { 
-    font-size: 12.707rem;
+h4 {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
     color: #161721;
-
 }
-
-
 
 h5 { 
-    font-size: 12.707rem;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
     color: #161721;
 
 }
@@ -86,7 +93,7 @@ h5 {
 
 
 p {
-font-size: 1rem;
+    font-size: 1.25rem;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #161721;
@@ -120,13 +127,7 @@ strong {
   
 
 
-li {
-    font-size: 1.75rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: #161721;
 
-}
 
 
 .skyscanner-title {
@@ -639,15 +640,27 @@ height: 100%;
    
 
 
+        .textcontainer {
+            text-align: left; 
+            display:flex; 
+            flex-direction: column; 
+            align-items: center;
+           margin-left: 2rem;
+           margin-right: 2rem;
+        }
+
 
         .myrole{
+
            display: flex;
-           flex-flow: column;
-           margin: 0 auto;
+           flex-flow: column;  
+           text-align:left;   
            width: min(90%, 80rem);
            margin-top: 0;
            max-width: 80ch;
            line-height: 2;
+
+           
 
         } 
 
@@ -1182,15 +1195,15 @@ a.otherworks-btn {
     -ms-flex-item-align: auto;
     align-self: auto;
 
-    background-color: transparent; 
-    padding: 0.35em 1.2em;
+    background-color: #161721; 
+    padding: 0.1em 1em;
     margin: 0 0.5em 0.5em 0;
-    border: 3px solid #1D1E2C;
     border-radius: 30px;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 0.75rem;
+    color: #FCFCFC;
 	
 	
 }
@@ -1210,6 +1223,8 @@ a.otherworks-btn {
 @media all and (max-width: 1367px) {
 
 
+    
+   /*
     h1 {
         font-size: 3.454rem;
     }
@@ -1219,8 +1234,6 @@ a.otherworks-btn {
         display: inline-block;
     }
     
-    
-   /*
     
     li span {
         font-size: 2.135rem;
@@ -1322,6 +1335,9 @@ max-width: 413px;
         display: none;
     }
 
+
+
+    /*
 h1 {
     font-size: 3.454rem;
 }
@@ -1334,7 +1350,7 @@ h6 {
     h5 { 
         font-size: 7.853rem;
     
-    }
+    } */
 
 
     
@@ -2591,9 +2607,10 @@ flex-grow: 0;
   
   .caption {
     position: absolute;
-    bottom: 6%;
-    left: 5%;
+    align-items:flex-end;
     color: white;
+    margin-right: 2rem;
+    margin-bottom: 2 rem;
   }
   
   .caption p:first-child {
