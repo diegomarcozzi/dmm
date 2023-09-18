@@ -1,6 +1,8 @@
 *{
-    box-sizing: border-box;
-	
+ box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;	
 }
 
 .wrap {
@@ -960,8 +962,6 @@ a.otherworks-btn {
 
 
 .myemail {
-    padding-left: 5rem;
-    padding-right: 5rem;
 	font-weight: bold;
 }
 
@@ -970,12 +970,12 @@ a.button-email {
     flex-flow: column;
     border-radius: 30px;
     align-items: center;
-    padding: 5px 5px 5px 5px;
+    padding: 8px 16px 8px 16px;
     border: 3px solid #1D1E2C;
     font-weight: bold;
 	
-    width: 325px;
-    margin-top: 5rem;
+    width: auto;
+    margin-top: 2rem;
     text-align: center;
     align-content: center;
     align-self: center;
@@ -983,8 +983,17 @@ a.button-email {
     justify-self: center;
     place-items: center;
     vertical-align: middle;
+
+    -webkit-text-fill-color:white;
+    background-color: #161721;
     
    }
+
+   a.button-email:hover{
+    -webkit-text-fill-color:#161721;
+    border: 3px solid #161721;
+    background-color: transparent;
+}
 
    a.button-email:hover{
 
