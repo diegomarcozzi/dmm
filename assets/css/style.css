@@ -2396,6 +2396,7 @@ flex-grow: 0;
 
 
 
+ 
  .grid {
     text-align: center;
     width: 95vw;
@@ -2403,6 +2404,7 @@ flex-grow: 0;
   }
   
   
+  /* Step 3: how big should the gap be between grid items? remember that the total gap between two items would be double what you set here since both would have that amount set as their individual padding. Also add box-sizing:border-box to make sure the padding doesn't affect the total widh of the item */
   
   .grid-item {
     padding: 5px;
@@ -2427,6 +2429,7 @@ flex-grow: 0;
         }
 
   
+  /* Step 4: Add media queries (subjective) to make the whole grid resposive. */
   
   @media (min-width: 500px) {
     .grid-item {
