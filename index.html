@@ -71,9 +71,97 @@ Designed and coded by DMM
 
 
 
+    
+<div class="hero" >
+  <div class="backgroundimage"></div>
+
+  <div class="texto-principal" >
+                <div class="fadeInLeft">
+
+                  <p style="font-weight: 900; font-size: 1rem; font-family: 'Raleway', sans-serif;">HOLA! I'm <strong>Diego</strong> and I..
+                                                                  
+
+                  </p>
+
+                       <p><span class="typing-text">I build <br>
+                        user-friendly things.</span></p>
+
+                        <script>
+                          const phrases = [
+                            "am a hands-on design leader who specializes in leading complex initiatives at fast-paced startups. Whether leading a small design team, overseeing an 80-person initiative, or pushing pixels myself, I do what it takes to create products that define and shape businesses.",
+                            "Lead and manage design teams with multiple disciplines including Product Design, Brand Creative and Research.",
+                            "Craft product visions, strategies, and user experiences.",                                       
+                            "Build frictionless interactions and user-friendly flows.",
+                            "Execute product strategies with cross-functional teams.",
+                            "Lead design projects that solve complex problems.",
+                            "Track the right metrics and identify UX problem areas.",
+                            "Lead design sprints and workshops.",
+                            "Design intuitive experiences.",
+                            "Balance user needs with business goals.",
+                            "Hire, coach and mentor team members.",
+                            "Build design systems.",
+                            "Create high impact and high visibility projects",
+                            "Lead at the project level, product level, organization level, and company level.",
+                            "Establish organization-level goals and translate them to teams across multiple products to create remarkable experiences.",
+                            "Implement and lead processes that solve difficult problems and influence across a collection of products.",
+                            "Build relationships with team members from Engineering, Product, Marketing, and Data Science and speak to product strategy, design goals, and execution.",
+                            "Drive discipline-wide conversations and create deliverables on how to improve product, process, and tools.",
+                            
+
+
+                            
+                          ];
+                      
+                          let i = 0;
+                          let j = 0;
+                          let currentPhrase = "";
+                          let isDeleting = false;
+                      
+                          function type() {
+                            if (i === phrases.length) {
+                              i = 0;
+                            }
+                      
+                            const phrase = phrases[i];
+                      
+                            if (isDeleting) {
+                              currentPhrase = phrase.substring(0, currentPhrase.length - 1);
+                            } else {
+                              currentPhrase = phrase.substring(0, currentPhrase.length + 1);
+                            }
+                      
+                            document.querySelector(".typing-text").textContent = currentPhrase;
+                      
+                            let delta = 50 - Math.random() * 100;
+                      
+                            if (isDeleting) {
+                              delta /= 2;
+                            }
+                      
+                            if (!isDeleting && currentPhrase === phrase) {
+                              delta = 2500;
+                              isDeleting = true;
+                            } else if (isDeleting && currentPhrase === "") {
+                              isDeleting = false;
+                              i++;
+                            }
+                      
+                            setTimeout(type, delta);
+                          }
+                      
+                          // Adjust the delay time here (in milliseconds)
+                          const delayTime = 5;
+                      
+                          setTimeout(() => {
+                            type();
+                          }, delayTime);
+                        </script>
 
 
 
+	
+
+<!--
 <div class="hero">
              <div class="texto-principal">
                 <div class="fadeInLeft">
@@ -110,6 +198,8 @@ Designed and coded by DMM
         </div>
 
 </div> 
+-->
+			
  <div id="logos-home-page">
           <div class="slider">
             <div class="slide-track">
