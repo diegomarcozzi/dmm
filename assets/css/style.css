@@ -282,8 +282,16 @@ max-width: 600px;
                 width: min(90%, 35.5rem)
             }
               
-            
 
+    .hero {
+                padding-top: 5rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+
+
+
+/*
             .hero {
                 display: flex;
                 flex-flow: row nowrap;
@@ -294,7 +302,7 @@ max-width: 600px;
                 justify-content: space-between;
             
             }
-            
+  */          
             .hero-image {
             
             flex: 1 1 40%;
@@ -325,6 +333,22 @@ max-width: 600px;
             
             
         }
+
+
+.backgroundimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 165px;
+    height: 165px;
+    background-image: url(../../images/profile4.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+
+}
 
 
 
@@ -1297,7 +1321,7 @@ a.button-email {
     }
 
 
-    .texto-principal {
+ /*   .texto-principal {
                 
 flex: 1 1 40%;
 width: 413px;
@@ -1305,6 +1329,15 @@ padding: 1%;
 max-width: 413px;
 
      }
+*/
+	
+            .texto-principal {
+   
+                margin-top: 2rem;
+                margin-bottom: 5rem;
+                text-align:center;
+
+            }
 
 }
 
@@ -2584,17 +2617,21 @@ flex-grow: 0;
     display:inline-flex;
     overflow: hidden;
     white-space: wrap;
-    font-weight: 400;
-    margin-left: 20%;
-    margin-right: 20%;
+    font-weight: 900;
+    margin-left: 2rem;
+    margin-right: 2rem;
     color: #161721;
     border-right: .15em solid #161721;
     animation: typing 0s steps(30, end), blink-caret .3s step-end infinite;
     margin-top: 2rem;
-    max-width: 336px;
+    max-width: 40ch;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2rem;
 
    
   }
+  
   
   
 
