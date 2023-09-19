@@ -22,9 +22,6 @@ body, html {
 }
 
 
-
-
-
 h1 {
     font-size: 5.75rem;
     font-family: 'Raleway', sans-serif;
@@ -46,6 +43,7 @@ h2 {
     color: #161721;
 
 } 
+
 
 h3 {
     font-size: 3rem;
@@ -710,7 +708,8 @@ height: 100%;
             
             width: 100%;
             max-width:  80ch;
-            margin-top: 5rem;
+            margin-top: 0rem;
+            margin-bottom: 3rem;
             align-content: center;
             align-self: center;
             justify-items: center;
