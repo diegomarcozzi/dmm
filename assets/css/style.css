@@ -23,13 +23,12 @@ body, html {
 }
 
 
+
 h1 {
-    font-size: 3rem;
+    font-size: 6.389vw;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     color: #161721;
-        margin-bottom: 0.5rem;
-
 
 }
 
@@ -40,58 +39,53 @@ h1 span {
 
 
 h2 {
-    font-size: 1.375rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-size: 4.772vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     color: #161721;
 
 }
-
 
 h3 {
-    font-size: 2.5rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: #161721;
-
-}
-
-h4 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: #161721;
 
 }
 
+
+
+li  {
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #161721;
+
+}
+
+
 li span {
-    font-size: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #161721;
+
+}
+
+
+
+h4 {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
     font-weight: 900;
     color: #161721;
-
 }
-
-
-h7 { 
-    font-size: 10rem;
-    color: #161721;
-
-}
-
-
-
-
-h6 { 
-    font-size: 12.707rem;
-    color: #161721;
-
-}
-
-
 
 h5 { 
-    font-size: 12.707rem;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
     color: #161721;
 
 }
@@ -99,12 +93,12 @@ h5 {
 
 
 p {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #161721;
-
 }
+
 
 strong {
   position: relative;
@@ -1240,7 +1234,7 @@ a.button-email {
 
 @media all and (max-width: 1367px) {
 
-
+/*
     h1 {
         font-size: 3.454rem;
     }
@@ -1301,7 +1295,7 @@ a.button-email {
     
     }
     
-
+*/
 
 
 
@@ -1575,7 +1569,7 @@ text-align: center;
 }
 
 
-
+/*
     h1 {
         font-size: 3rem;
     
@@ -1620,7 +1614,7 @@ text-align: center;
         font-size: 1.854rem;
     
     }
-
+*/
     .logo {
         text-align: center;
         align-content: center;
