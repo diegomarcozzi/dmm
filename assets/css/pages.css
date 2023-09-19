@@ -22,29 +22,9 @@ body, html {
 }
 
 
-h1 {
-    font-size: 6.389vw;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    color: #161721;
-
-}
 
 
-h1 span {
-    display: inline-block;
-}
 
-
-h2 {
-    font-size: 4.772vw;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    color: #161721;
-
-}
-
-/*
 h1 {
     font-size: 5.75rem;
     font-family: 'Raleway', sans-serif;
@@ -65,7 +45,7 @@ h2 {
     font-weight: 900;
     color: #161721;
 
-} */
+} 
 
 h3 {
     font-size: 3rem;
