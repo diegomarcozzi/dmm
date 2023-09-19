@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-        
+       
+   
 }
 
 .wrap {
@@ -21,9 +22,29 @@ body, html {
 }
 
 
+h1 {
+    font-size: 6.389vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #161721;
+
+}
 
 
+h1 span {
+    display: inline-block;
+}
 
+
+h2 {
+    font-size: 4.772vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #161721;
+
+}
+
+/*
 h1 {
     font-size: 5.75rem;
     font-family: 'Raleway', sans-serif;
@@ -44,7 +65,7 @@ h2 {
     font-weight: 900;
     color: #161721;
 
-}
+} */
 
 h3 {
     font-size: 3rem;
@@ -649,6 +670,19 @@ height: 100%;
            margin-right: 2rem;
         }
 
+        .titlecontainer {
+            display:flex; 
+            flex-direction: column; 
+            align-items: center;
+           margin-left: 2rem;
+           margin-right: 2rem;
+           margin-top: 15rem; 
+           margin-bottom: 8rem; 
+           text-align: center;
+           font-size: 1vw;        
+        }
+
+
 
         .myrole{
 
@@ -992,98 +1026,94 @@ a.otherworks-btn {
 
 
 
-    .footer {
-        display: flex;
-        flex-flow: column ;
-        
-        max-width: 75ch;
-        margin: 0 auto;
     
-        margin-top: 5rem;
-        width: min(90%, 70.5rem);
+.footer {
+    display: flex;
+    flex-flow: column ;
     
-        text-align: center;
-        align-content: center;
-        align-self: center;
-        justify-items: center;
-        justify-self: center;
-        place-items: center;
-        vertical-align: middle;
-      
-    
-    
-        
-    }
-    
-    .footer-text { 
-        display: flex;
-        flex-flow: column;
-        margin-top: 10rem;
-        z-index: 2;
-    
-        text-align: center;
-        
-    }
-     
-    
-    
-    .button-email {
+    max-width: 80ch;
+    margin: 0 auto;
 
-        border-radius: 30px;
-        align-items: center;
-        padding: 8px 16px 8px 16px;
-        border: 1px solid #1D1E2C;
-        font-weight: bold;
-        font-size: 1.25rem;
-        width: auto;
-        margin-top: 2rem;
-        text-align: center;
-        align-content: center;
-        align-self: center;
-        justify-items: center;
-        justify-self: center;
-        place-items: center;
-        vertical-align: middle;
+    margin-top: 5rem;
+    width: min(90%, 70.5rem);
+
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    justify-items: center;
+    justify-self: center;
+    place-items: center;
+    vertical-align: middle;
+  
+
+
+    
+}
+
+.footer-text { 
+    display: flex;
+    flex-flow: column;
+    margin-top: 10rem;
+    z-index: 2;
+
+    text-align: center;
+    
+}
+
+    
+   
     
 
-        background-color: #69ECCA;
-    }
-    
-    a.button-email {
+
+    .myemail {
+	font-weight: bold;
+}
+
+a.button-email {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    text-align: center;
     border-radius: 30px;
-        align-items: center;
-        padding: 8px 16px 8px 16px;
-        border: 1px solid #1D1E2C;
-        font-weight: bold;
-        font-size: 1.25rem;
-        width: auto;
-        margin-top: 2rem;
-        text-align: center;
-        align-content: center;
-        align-self: center;
-        justify-items: center;
-        justify-self: center;
-        place-items: center;
-        vertical-align: middle;
-    color: #161721;
+    padding: 8px 8px 8px 8px;
+    border: 3px solid #1D1E2C;
+    font-weight: bold;
+	
+    margin-top: 2rem;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    justify-items: center;
+    justify-self: center;
+    place-items: center;
+    vertical-align: middle;
 
-        background-color: #69ECCA;
-        
-       }
+    -webkit-text-fill-color:white;
+    background-color: #161721;
+    width: 200px;
+    height: 50px;
+
     
-       a.button-email:hover{
-        border: 1px solid #fcfcfc;
-        background-color: black;
-        color: #FCFCFC;
+    
+   }
+
+   a.button-email:hover{
+    -webkit-text-fill-color:#161721;
+    border: 3px solid #161721;
+    background-color: transparent;
+}
+
+
+
+
+
+    .bg {
+        z-index: -1000;
+        opacity: 25%;
+        margin-top: -45rem;
+        margin-right: 0rem;
     }
-    
-
-
-
-
-
-
-
 
 
 
@@ -1097,10 +1127,9 @@ a.otherworks-btn {
     justify-self: center;
     place-items: center;
     vertical-align: middle;
+
     z-index: 1;
 }
-
-
 
 .skills {
     margin-top: 5rem;
