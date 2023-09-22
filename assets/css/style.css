@@ -25,7 +25,7 @@ body, html {
 
 
 h1 {
-    font-size: 6.389vw;
+    font-size: 5.75rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     color: #161721;
@@ -39,7 +39,7 @@ h1 span {
 
 
 h2 {
-    font-size: 4.772vw;
+    font-size: 4.25rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     color: #161721;
@@ -102,7 +102,6 @@ p {
 
 strong {
   position: relative;
-  font-weight: 900;
 }
 
 strong::before {
@@ -238,9 +237,9 @@ a{
     animation: typing 0s steps(30, end), blink-caret .3s step-end infinite;
     margin-top: 2rem;
     max-width: 40ch;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Raleway', sans-serif;
-    line-height: 2rem;
+    line-height: 1.5;
     text-align: center;
 
    
@@ -322,7 +321,7 @@ a{
                 left: 0;
                 width: 0;
                 height: 0;
-                border-bottom: 7vh solid black;
+                border-bottom: 5vh solid black;
                 border-left: 100vw solid transparent;
               }
               
@@ -333,7 +332,7 @@ a{
                 width: 0;
                 height: 0;
                 margin-top: 0;
-                border-top: 7vh solid black;
+                border-top: 5vh solid black;
                 border-right: 100vw solid transparent;
               }
 
@@ -380,6 +379,8 @@ a{
 
 
 
+        
+
         .work {
 
             display: flex;
@@ -391,14 +392,13 @@ a{
             justify-content: center;
             align-items:center;
             align-content:center;
-
+padding-bottom: 5rem;
          
         }
 
      .work-bcdc  {
 		    flex: 1 1 auto;
                     width: 600px;
-                    padding: 1%;
                     max-width: 600px;
 
             }
@@ -413,9 +413,12 @@ a{
 
                 .work-status  {
 		    flex: 1 1 auto;
-                    width: 600px;
-                    padding: 1%;
-                    max-width: 600px;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            padding: 2rem;
+            min-width: 320px;
+            width: 400px;
+            max-width: 500px;
 
             }
           
@@ -670,7 +673,7 @@ height: 100%;
         } 
    
 
-
+/*
 
         .myrole{
            display: flex;
@@ -681,8 +684,23 @@ height: 100%;
            margin-top: 20rem;
            max-width: 70.5ch;
         
-        } 
+        } */
 
+
+
+        .myrole{
+
+            display: flex;
+            flex-flow: column;  
+            text-align:left;   
+            width: min(90%, 80rem);
+            margin-top: 0;
+            max-width: 80ch;
+            line-height: 2;
+ 
+            
+ 
+         } 
        
 
 
@@ -1689,12 +1707,12 @@ text-align: center;
 }
 
 
-
+/*
     .work-title {
         text-align: left;
         width: cover;
         margin: 0 auto; 
-    }
+    }*/
 
     .work-title2 {
         text-align: center; 
@@ -1833,7 +1851,7 @@ font-size: 1.14rem;
 margin: 0 auto;
 }
 
-
+/*
 .work-title {
     text-align: left;
     width: cover;
@@ -1847,7 +1865,7 @@ margin-top: 5rem;
     background-repeat:no-repeat;
     
 
-}
+}*/
 .work-title2 {
     text-align: center;
     padding-top: 40%;
