@@ -97,8 +97,6 @@ p {
     font-weight: 400;
     color: #161721;
 
-
-
 }
 
 b {
@@ -671,12 +669,10 @@ height: 100%;
            margin-top: 0;
            max-width: 80ch;
            line-height: 2;
-
-           
-
         } 
 
-       
+    
+ 
 
 
 
@@ -695,7 +691,41 @@ height: 100%;
          } 
 
 
-   
+
+         .myrolequote {
+            text-align: left;
+            max-width: 80ch;
+            line-height: 2;
+            position: relative; /* Make the container a positioning context */
+        }
+        
+        .textcontainerquote {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+        
+        .pull-quote {
+            margin-left: 0; /* Remove margin-left from the pull quote */
+            position: relative; /* Ensure relative positioning for pseudo-element */
+           
+        }
+        
+        .pull-quote::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0px; /* Adjust the width of the border */
+            width: 4px; /* Width of the left border */
+            height: 100%; /* Set the height to 100% to match the container's height */
+            background-color: #161721; /* Left border color */
+        }
+
+
+
 
 
 
