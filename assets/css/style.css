@@ -416,10 +416,9 @@ padding-bottom: 5rem;
 		    flex: 1 1 auto;
             margin-left: 2rem;
             margin-right: 2rem;
-            padding: 2rem;
-            min-width: 320px;
-            width: 400px;
-            max-width: 500px;
+            padding: 1rem;
+            width: 600px;
+            max-width: 600px;
 
             }
           
