@@ -1531,6 +1531,16 @@ text-align: center;
 
 
 @media all and (max-width: 768px) {
+    
+    .responsive4 {
+        width: 600px;
+        height: auto;
+    }
+ 
+    
+    
+    
+    
     .section .work .column {
         flex-direction: column;
     }
@@ -1788,6 +1798,14 @@ text-align: center;
 
 
 @media all and (max-width: 411px){
+   
+   
+    .responsive4 {
+        width: 300px;
+        height: auto;
+    }
+ 
+   
     .section .work .column {
         flex-direction: column;
     }
@@ -2334,6 +2352,7 @@ margin: 0 auto;
     width: 95vw;
     margin-left: 2rem;
     margin-right: 2rem;
+    
   }
   
   
