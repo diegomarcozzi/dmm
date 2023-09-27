@@ -28,18 +28,41 @@ Designed and coded by DMM
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-<div class="menu-wrapper">
-	<input type="checkbox" id="overlay-input" />
-	<label for="overlay-input" id="overlay-button"><span></span></label>
-	  <div id="overlay">
-		<ul>
-		  <li><h2><a href="index.html">Home</a></h2></li>
-		  <li><h2><a href="/dmm/index.html#work-title-btn">Work</a></h2></li>
-		  <li><h2><a href="/dmm/about.html">About</a></h2></li>
-		  <li><h2><a href="/dmm/index.html#contact-title-btn">Contact</a></h2></li>
-		</ul>
-	  </div>
-	</div>
+
+
+
+
+  
+	<div class="menu-wrapper">
+		<input type="checkbox" id="overlay-input" />
+		<label for="overlay-input" id="overlay-button"><span></span></label>
+		  <div id="overlay">
+			<ul>
+			  <li><h2  style="margin: 2rem"><a href="index.html" id="home-link">Home</a></h2></li>
+			  <li><h2 style="margin: 2rem"><a href="/dmm/index.html#work-title-btn" id="work-link">Work</a></h2></li>
+			  <li><h2 style="margin: 2rem"><a href="/dmm/about.html" id="about-link">About</a></h2></li>
+			  <li><h2 style="margin: 2rem"><a href="/dmm/index.html#contact-title-btn" id="contact-link">Contact</a></h2></li>
+			</ul>
+		  </div>
+		</div>
+		
+		<script>
+		  
+		  function closeMobileMenu() {
+			var checkbox = document.getElementById('overlay-input');
+			checkbox.checked = false;
+		  }
+		
+		  document.getElementById('home-link').addEventListener('click', closeMobileMenu);
+		  document.getElementById('work-link').addEventListener('click', closeMobileMenu);
+		  document.getElementById('about-link').addEventListener('click', closeMobileMenu);
+		  document.getElementById('contact-link').addEventListener('click', closeMobileMenu);
+		</script>
+		
+						
+			
+
+
 
 
 
@@ -50,32 +73,18 @@ Designed and coded by DMM
 
 
 
-
 	<div class="menu">
-                     
 		<div class="logo">
-				<a href="index.html">
-				<img src="images/dmmlogo.svg" alt="" style="height:50px; margin-left: 0"></a>
-				
-		</div> 
-	
-
-
-
-		
-
+		  <a href="index.html">
+			<img src="images/dmmlogo.svg" alt="" style="height: 3rem;">
+		  </a>
+		</div>
 		<nav class="nav">
-			
-				
-				<a href="/dmm/index.html#work-title-btn" class="button-work" style="margin-right: 5rem; color:#161721;">Work</a>
-				
-				<a href="/dmm/about.html" class="button-about" style="margin-right: 5rem; color:#161721">About</a>
-				<a href="/dmm/index.html#contact-title-btn" class="button-contact" style=" color:#161721">Contact</a>
-
+		  <a href="/dmm/index.html#work-title-btn" class="button-work" style="padding: 1.5rem; color:#161721; align-items: flex-start;">Work</a>
+		  <a href="/dmm/about.html" class="button-about" style="padding: 1.5rem; color:#161721">About</a>
+		  <a href="/dmm/index.html#contact-title-btn" class="button-contact" style="padding: 1.5rem; color:#161721">Contact</a>
 		</nav>
-
-  
-	</div>
+	  </div>
 </div>
 
 
@@ -349,7 +358,7 @@ Designed and coded by DMM
 	<div class="myrole">
 
 		<p style=" margin-top: 0rem;">
-			I partnered with Krish Venkataraman (former Global Head of Institutional Digital Assets) in a quest to redesign the products and overall user experience. During one of our calls, reviewing the existing design, I noticed that the <b>Request for Quote</b> flow could be better.  
+			I partnered with Krish Venkataraman, the former Global Head of Institutional Digital Assets, to redesign our products and enhance the user experience. During one of our discussions, <b>I identified an opportunity to improve the Request for Quote (RFQ) process.</b>
 		</p>	
 	</div>
 </div>
@@ -370,8 +379,11 @@ Designed and coded by DMM
 <div class="textcontainer">
 	<div class="myrole" style=" margin-top: 5rem;">
 		<p style=" margin-top: 0rem;">
-		I had an idea to make it better, but wasn't completely sure if was technically possible, so I put together some quick wireframes and set up a series of calls with the Head of Institutional and the Tech Lead to sort all my questions. I needed to be sure that what I was proposing was right in terms of product, legality and technical viability. My biggest concern was around the price generation. Like, how is the price generated, what happens if someone clicks at 0 seconds, what happens if the price changes, how do we lock it, for how long, what's legal, what's not, where is legal (230 countries), where is not, etc. After a couple of design sprints we achieved a version that worked beautifully:
-		
+			I had an idea for improvement, but I wasn't entirely certain about its technical feasibility. To address my questions and concerns, I quickly created wireframes and scheduled a series of meetings with the Head of Institutional and the Tech Lead. My goal was to ensure that my proposal aligned with product requirements, legal considerations, and technical viability.
+
+			My primary focus was on price generation. I needed to understand how prices were generated, what would happen if someone clicked within milliseconds, how price changes would be handled, and the details of locking prices and their duration.<br><br>
+			
+			After a couple of design sprints, we successfully arrived at a version that met our objectives beautifully:		
 		</p>	
 		<div class="seedphrase1" style="margin-top: 2rem;">
 			<img src="images/rfqnew.svg"  style="height: auto; max-width: 80ch;">
@@ -380,7 +392,9 @@ Designed and coded by DMM
 		</p>
 		
 		<p style=" margin-top: 2rem;">
-			And so, after an excellent work done by the developers, we achieved an eternal price renewal cycle where the user does not need to do anything to renew the price. <br><br><em>- Simplicity is the ultimate sofistication.</em>
+			After the exceptional work carried out by our developers, we accomplished an automated price renewal cycle, eliminating the need for users to take any action to renew their pricing.
+
+			In the spirit of 'simplicity is the ultimate sophistication,' we've made the process seamless and effortless for our users.
 		</div>
 </div>	
 
