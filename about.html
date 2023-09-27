@@ -29,57 +29,51 @@ Designed and coded by DMM
 
 
 <body>
-<div class="menu-wrapper">
-	<input type="checkbox" id="overlay-input" />
-	<label for="overlay-input" id="overlay-button"><span></span></label>
-	  <div id="overlay">
-		<ul>
-		  <li><h5><a href="index.html">Home</a></h5></li>
-		  <li><h5><a href="/dmm/index.html#work-title-btn">Work</a></h5></li>
-	
-		  <li><h5><a href="/dmm/about.html">About</a></h5></li>
-		  <li><h5><a href="/dmm/index.html#contact-title-btn">Contact</a></h5></li>
-		</ul>
-	  </div>
-	</div>
 
 
 
-
-
+	<div class="menu-wrapper">
+		<input type="checkbox" id="overlay-input" />
+		<label for="overlay-input" id="overlay-button"><span></span></label>
+		  <div id="overlay">
+			<ul>
+			  <li><h2  style="margin: 2rem"><a href="index.html" id="home-link">Home</a></h2></li>
+			  <li><h2 style="margin: 2rem"><a href="/dmm/index.html#work-title-btn" id="work-link">Work</a></h2></li>
+			  <li><h2 style="margin: 2rem"><a href="/dmm/about.html" id="about-link">About</a></h2></li>
+			  <li><h2 style="margin: 2rem"><a href="/dmm/index.html#contact-title-btn" id="contact-link">Contact</a></h2></li>
+			</ul>
+		  </div>
+		</div>
+		
+		<script>
+		  
+		  function closeMobileMenu() {
+			var checkbox = document.getElementById('overlay-input');
+			checkbox.checked = false;
+		  }
+		
+		  document.getElementById('home-link').addEventListener('click', closeMobileMenu);
+		  document.getElementById('work-link').addEventListener('click', closeMobileMenu);
+		  document.getElementById('about-link').addEventListener('click', closeMobileMenu);
+		  document.getElementById('contact-link').addEventListener('click', closeMobileMenu);
+		</script>
+		
+						
 
 <div class="wrap">
-
-
-
-
 	<div class="menu">
-                     
 		<div class="logo">
-				<a href="index.html">
-				<img src="images/dmmlogo.svg" alt="" style="height:50px; margin-left: 0"></a>
-				
-		</div> 
-	
-
-
-
-		
-
+		  <a href="index.html">
+			<img src="images/dmmlogo.svg" alt="" style="height: 3rem;">
+		  </a>
+		</div>
 		<nav class="nav">
-			
-				
-				<a href="/dmm/index.html#work-title-btn" class="button-work" style="margin-right: 5rem; color:#161721;">Work</a>
-				
-				<a href="/dmm/about.html" class="button-about" style="margin-right: 5rem; color:#161721">About</a>
-				<a href="/dmm/index.html#contact-title-btn" class="button-contact" style=" color:#161721">Contact</a>
-
+		  <a href="/dmm/index.html#work-title-btn" class="button-work" style="padding: 1.5rem; color:#161721; align-items: flex-start;">Work</a>
+		  <a href="/dmm/about.html" class="button-about" style="padding: 1.5rem; color:#161721">About</a>
+		  <a href="/dmm/index.html#contact-title-btn" class="button-contact" style="padding: 1.5rem; color:#161721">Contact</a>
 		</nav>
-
-  
-	</div>
+	  </div>
 </div>
-
 
 	
 
