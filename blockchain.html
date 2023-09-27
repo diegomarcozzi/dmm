@@ -31,7 +31,7 @@ Designed and coded by DMM
 
 
 
-
+<body>
   
 	<div class="menu-wrapper">
 		<input type="checkbox" id="overlay-input" />
@@ -262,15 +262,15 @@ Designed and coded by DMM
 	<div class="myrole" style=" margin-top: 5rem;">
 		<h4>Problem solving example #1: Rethinking the Wallet</h4>
 		<p style=" margin-top: 0rem;">
-			One of the initial tasks I undertook was to reconsider the wallet. No one had requested it, but I observed numerous areas for potential improvement. One notable example was the separate sections for prices and buying/selling, which, in my view, lacked logical coherence as they essentially pertained to the same screen. Consequently, I merged them into a unified interface.
+			One of the first tasks I tackled was reevaluating the wallet feature. While it hadn't been explicitly requested, I identified several opportunities for enhancement. One prominent issue was the division between price information and the buy/sell options, which, in my opinion, lacked logical consistency since they essentially belonged on the same screen. As a result, I combined them into a unified interface.
 		</p>	
 		<div class="seedphrase1" style="margin-top: 2rem;">
-			<img src="images/bcdcoldprices.png"  style="max-height: 600px; width: auto;">
+			<img src="images/bcdcoldprices.png" class="responsive">
 		</div>
 		<p style="font-size: 1rem;margin-top: 0rem; text-align: center;">Old version 
 		</p>
 		<div class="seedphrase1" style="margin-top: 2rem;">
-			<img src="images/bcdcnew.png"  style="max-height: 600px; width: auto;">
+			<img src="images/bcdcnew.png"  class="responsive2">
 		</div>
 		<p style="font-size: 1rem;margin-top: 0rem; text-align: center;">Improved version  (live)
 		</p>
@@ -298,7 +298,7 @@ Designed and coded by DMM
 			When I arrived at Blockchain.com, the Explorer posed significant challenges. It had been neglected, generated minimal profit, and was costly to maintain. Paradoxically, it remained the most popular product while being the least exploited. Few Explorer users were aware of the existence of our other, coincidentally more profitable offerings like Wallet, Exchange, and Institutional services.		
 		</p>	
 		<div class="seedphrase1" style="margin-top: 2rem;">
-			<img src="images/bcdcoldexplorer.png"  style="height: auto; max-width: 600px;">
+			<img src="images/bcdcoldexplorer.png"  class="responsive3">
 		</div>
 		<p style="font-size: 1rem;margin-top: 0rem; text-align: center;">Old Version 
 		</p>
@@ -324,7 +324,7 @@ Designed and coded by DMM
 <div class="textcontainer">
 	<div class="myrole">
 <div class="seedphrase1" style="margin-top: 2rem;">
-	<img src="images/explorer_home.png"  style="height: auto; max-width: 80ch;">
+	<img src="images/explorer_home.png"  class="responsive3">
 </div>
 <p style="font-size: 1rem;margin-top: 0rem; text-align: center;">Improved version (80% live, 20% WIP) 
 </p>
@@ -359,6 +359,16 @@ Designed and coded by DMM
 
 		<p style=" margin-top: 0rem;">
 			I partnered with Krish Venkataraman, the former Global Head of Institutional Digital Assets, to redesign our products and enhance the user experience. During one of our discussions, <b>I identified an opportunity to improve the Request for Quote (RFQ) process.</b>
+		
+			<br>
+			<br>
+			In the previous version:
+			<br>
+			<ol>
+			<li>The user initiates a request for a new quote.</li>
+			<li>They are given a 60-second window to confirm the quote.</li>
+			<li>If the user doesn't confirm within this time frame, they must request a new quote.</li>
+		</ol>
 		</p>	
 	</div>
 </div>
@@ -368,8 +378,8 @@ Designed and coded by DMM
 
 <div class="textcontainer">
 	<div class="myrole">
-<div class="seedphrase1" style="margin-top: 2rem;">
-	<img src="images/rfqold.svg"  style="height: auto; max-width: 80ch;">
+<div class="seedphrase1">
+	<img src="images/rfqold.svg"  class="responsive3">
 </div>
 <p style="font-size: 1rem;margin-top: 0rem; text-align: center;">Old version 
 </p>
@@ -386,15 +396,19 @@ Designed and coded by DMM
 			After a couple of design sprints, we successfully arrived at a version that met our objectives beautifully:		
 		</p>	
 		<div class="seedphrase1" style="margin-top: 2rem;">
-			<img src="images/rfqnew.svg"  style="height: auto; max-width: 80ch;">
+			<img src="images/rfqnew.svg"  class="responsive3">
 		</div>
 		<p style="font-size: 1rem;margin-top: 0rem; text-align: center;">Improved version 
 		</p>
 		
-		<p style=" margin-top: 2rem;">
-			After the exceptional work carried out by our developers, we accomplished an automated price renewal cycle, eliminating the need for users to take any action to renew their pricing.
-
-			In the spirit of 'simplicity is the ultimate sophistication,' we've made the process seamless and effortless for our users.
+		<p> In the new version:
+			<br>
+			<ol>
+			<li>The user initiates a request for a new quote.</li>
+			<li>They are given a 60-second window to confirm the quote.</li>
+			<li>If the user doesn't confirm within this time frame, <b>the price updates automatically, eliminating the need for the user to request a new quote.</b></li>
+		</ol>
+	</p>	
 		</div>
 </div>	
 
@@ -402,7 +416,6 @@ Designed and coded by DMM
 
 <div class="screenshots">
 	<h2 style="text-align: center;">Screenshots</h2>
-
 </div>
 
 <div class="gallery-wrapper">
