@@ -94,7 +94,7 @@ h5 {
 
 p {
     font-size: 1.25rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #161721;
 }
@@ -234,7 +234,7 @@ a{
     display:inline-flex;
     overflow: hidden;
     white-space: wrap;
-    font-weight: 900;
+    font-weight: 400;
     margin-left: 2rem;
     margin-right: 2rem;
     color: #161721;
@@ -242,7 +242,7 @@ a{
     animation: typing 0s steps(30, end), blink-caret .3s step-end infinite;
     margin-top: 2rem;
     max-width: 40ch;
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-family: 'Raleway', sans-serif;
     line-height: 1.5;
     text-align: center;
@@ -274,7 +274,9 @@ a{
                 margin-top: 2rem;
                 margin-bottom: 5rem;
                 text-align:center;
-
+                font-weight: 900; 
+                font-family: 'Raleway', sans-serif; 
+                
             }
         
 
@@ -1603,18 +1605,24 @@ text-align: center;
         font-size: 3rem;
 
     }
-
+*/
 
     h2 {
-        font-size: 1.854rem;
+        font-size: 2rem;
       
     
     }
 
-    p {
-        font-size: 0.927rem;
-    }
+    .typing-text {
+        font-size: 1rem;
+  
+      }
+   
 
+    p {
+        font-size: 1rem;
+    }
+/*
     h6 {
         font-size: 4.85rem;
     }
@@ -2303,12 +2311,29 @@ margin: 0 auto;
 
 
 
+ .responsive {
+    width: 75%;
+    height: auto;
+}
+
+.responsive2 {
+    width: 40%;
+    height: auto;
+}
+
+.responsive3 {
+    width: 100%;
+    height: auto;
+}
+
+
 
 
  .grid {
     text-align: center;
     width: 95vw;
-    margin: 2.5vw auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   
   
