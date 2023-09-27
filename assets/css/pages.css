@@ -797,16 +797,29 @@ height: 100%;
          .seedphrase1 {
             text-align: center;
             
-margin-top: 1rem;
             display: block;
             margin: 0 auto;
             text-align: center;
-        
-            
-            max-width:  80ch;
- 
-
+            max-width: 80ch;
          }
+
+
+.responsive {
+    width: 75%;
+    height: auto;
+}
+
+.responsive2 {
+    width: 40%;
+    height: auto;
+}
+
+.responsive3 {
+    width: 100%;
+    height: auto;
+}
+
+ 
                  
          .report-big {
             display: flex;
@@ -1344,6 +1357,13 @@ max-width: 413px;
 
  @media all and (max-width: 1024px) {
 
+    
+
+
+    
+    
+    
+    
     #hero-big {
         display:none;
     }
