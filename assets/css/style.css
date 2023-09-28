@@ -398,6 +398,8 @@ a{
             justify-content: center;
             align-items:center;
             align-content:center;
+            margin-left: 2rem;
+            margin-right: 2rem;
             padding-bottom: 5rem;
         }
 
