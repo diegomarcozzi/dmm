@@ -141,7 +141,7 @@ li {
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -2257,13 +2257,17 @@ margin: 0 auto;
       
       #overlay {
         height: 100vh;
-        width: 100vw;
-        background: black;
-        opacity: 95%;
-        z-index: 2;
-        visibility: hidden;
-        position: fixed;
+  width: 100%;
+  background: black;
+  opacity: 0.95;
+  z-index: 2;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: visibility 0s linear 0.3s, opacity 0.3s ease;
       }
+
       #overlay.active {
         visibility: visible;
       }
@@ -2273,7 +2277,6 @@ margin: 0 auto;
         align-items: center;
         flex-direction: column;
         text-align: center;
-        height: 100vh;
         padding-left: 0;
         list-style-type: none;
       }
