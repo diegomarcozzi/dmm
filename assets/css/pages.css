@@ -2121,16 +2121,18 @@ margin: 0 auto;
 }
 
 
+.hero-image-container {
+    width: 100%;
+    max-height: 61vh; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .fly {
-    
-    display: block;
-    margin: 0 auto;
-    text-align: center;
     width: 100%;
-    margin-top: 0rem;
-
-  
+    height: auto;
 }
 
 
