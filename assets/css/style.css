@@ -394,13 +394,11 @@ a{
             flex-flow: row wrap;
             flex: 1 1 auto;
             margin: 0 auto;
-            
             width: cover;
             justify-content: center;
             align-items:center;
             align-content:center;
-padding-bottom: 5rem;
-         
+            padding-bottom: 5rem;
         }
 
      .work-bcdc  {
@@ -1431,8 +1429,8 @@ h1 {
 
     .work-status  {
                 flex: 1 1 auto;
-                min-width: 600px;
-                padding: 5%;
+                min-width: 37.5rem;
+                padding: 1rem;
 
         }
       
@@ -2511,14 +2509,14 @@ margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 16px;
+    padding: 1rem;
   }
   
   .img-box {
     position: relative;
-    width: 400px;
-    height: 565px;
-    margin: 16px;
+    width: 26.609rem;
+    height: 15.965rem;
+    margin: 1rem;
     overflow: hidden;
     border-radius: 2vh;
   }
@@ -2543,9 +2541,10 @@ margin: 0 auto;
   
   .caption {
     position: absolute;
-    top: 6%;
+    top: 8%;
     left: 8%;
     color: white;
+    margin-right: 2rem;
   }
   
   .caption p:first-child {
