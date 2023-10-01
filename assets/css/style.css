@@ -240,7 +240,7 @@ a{
     color: #161721;
     border-right: .15em solid #161721;
     animation: typing 0s steps(30, end), blink-caret .3s step-end infinite;
-    margin-top: 2rem;
+    margin-top: 1rem;
     max-width: 40ch;
     font-size: 1.25rem;
     font-family: 'Raleway', sans-serif;
