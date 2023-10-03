@@ -2264,6 +2264,8 @@ margin: 0 auto;
   top: 0;
   left: 0;
   transition: visibility 0s linear 0.3s, opacity 0.3s ease;
+  display: flex; 
+  align-items: center; 
       }
 
       #overlay.active {
