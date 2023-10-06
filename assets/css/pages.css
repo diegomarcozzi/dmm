@@ -669,8 +669,8 @@ height: 100%;
             align-items: center;
            margin-left: 2rem;
            margin-right: 2rem;
-           margin-top: 15rem; 
-           margin-bottom: 8rem; 
+           margin-top: 20vh; 
+           margin-bottom: 15vh; 
            text-align: center;
            font-size: 1vw;        
         }
@@ -834,6 +834,8 @@ height: 100%;
 .responsive3 {
     width: 100%;
     height: auto;
+
+
 }
 
  
@@ -2901,3 +2903,47 @@ width: 50%;
     place-items: center;
     vertical-align: middle;
 }
+
+
+
+
+.fancycontainer {
+    font-family: sans-serif;
+    color: #3c3c3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  @keyframes textShine {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .fancy {
+    font-size: clamp(2.8rem, 1.5vw, 3rem);
+    font-weight: bold;
+    margin: 5px;
+    background: linear-gradient(
+      to right,
+      #161721 20%,
+      #69ECCA 30%,
+      #333333 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+  }
+  
+
+
+
