@@ -110,10 +110,10 @@ strong::before {
   content: "";
   position: absolute;
   width: calc(100% + 4px);
-  height: 20%;
+  height: 60%;
   left: -2px;
-  bottom: -10px;
-  z-index: 1;
+  bottom: 0;
+  z-index: -2;
   transform: rotate(-2deg);
  
 }
@@ -239,9 +239,9 @@ a{
     margin-right: 2rem;
     color: #161721;
     border-right: .15em solid #161721;
-    animation: typing 0s steps(30, end), blink-caret .3s step-end infinite;
-    margin-top: 1rem;
-    max-width: 40ch;
+    animation: typing 0s steps(30, end), blink-caret .3s step-end infinite !important;
+    margin-top: 0;
+    max-width: 36ch;
     font-size: 1.25rem;
     font-family: 'Raleway', sans-serif;
     line-height: 1.5;
@@ -300,7 +300,7 @@ a{
             
 
             .hero {
-                padding-top: 5rem;
+                padding-top: 20vh;
                 margin-left: 2rem;
                 margin-right: 2rem;
             }
@@ -1085,7 +1085,6 @@ a.button-email {
 
 
 .bg {
-    z-index: -1000;
     opacity: 25%;
     margin-top: -45rem;
     margin-right: 0rem;
@@ -1109,7 +1108,6 @@ a.button-email {
 
 
 .bg {
-    z-index: -1000;
     opacity: 25%;
     margin-top: -50rem;
     margin-right: 0rem;
@@ -1122,7 +1120,6 @@ a.button-email {
     background-position: left;
     background-repeat: repeat-y;
     background-size: cover;
-    z-index: -1100;
 }
 
 
@@ -1132,7 +1129,7 @@ a.button-email {
     background-position: left;
     background-repeat: repeat-y;
     background-size: cover;
-    z-index: -1100;
+   
 }
 
 
@@ -1339,11 +1336,7 @@ a.button-email {
     }
 
 
-    .hero {
-        margin-top: 10rem;
-       
-        margin-bottom: 0rem;
-    }
+
 
 /*
     .texto-principal {
@@ -1630,7 +1623,7 @@ text-align: center;
 
 
     h4 {
-        font-size: 1.25rem;
+        font-size: 24px;
     }
 
     .typing-text {
@@ -1685,10 +1678,7 @@ text-align: center;
         margin: 0 auto;
     }
 
- *
-    .hero {
-        margin-top: 5rem;
-    }
+ 
     
     
                 .hero-image {
@@ -2257,7 +2247,7 @@ margin: 0 auto;
         height: 100vh;
   width: 100%;
   background: black;
-  opacity: 0.95;
+  opacity: 0.98;
   z-index: 2;
   visibility: hidden;
   position: fixed;
@@ -2448,6 +2438,7 @@ margin: 0 auto;
     min-height: 300;
     margin-top: 0;
     margin-bottom: 0;
+    opacity: 75%;
 }
 
 
@@ -2459,10 +2450,22 @@ margin: 0 auto;
     position: absolute;
     top: 0;
     height: 100%;
+    z-index: 2;
     pointer-events: none;  
 	}
 	
+#logos-home-page .slider:after {
+    left: 0;
+    right: calc(75% + 10px);
+    background: linear-gradient(to left, transparent, #FCFCFC);
+    	}
 
+#logos-home-page .slider:before {
+   
+    right: 0;
+    left: calc(75% + 10px);
+    background: linear-gradient(to right, transparent, #FCFCFC);
+    	}
 
 	#logos-home-page .slide-track {
 		animation: scroll 40s linear infinite;
@@ -2478,6 +2481,9 @@ margin: 0 auto;
     justify-content: center;
 }
 
+.slide img {
+    filter: hue-rotate(180deg); /* Change the color using CSS filter */
+}
 
 
 
@@ -2849,14 +2855,13 @@ img[alt="Image4"] {
 .container .card {
 	position: relative;
 	width: 300px;
-	height: 400px;
+	height: 430px;
 	margin: 20px;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-	border-radius: 15px;
+	border-radius: 16px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -2865,24 +2870,28 @@ img[alt="Image4"] {
 .container .card .content {
 	position: relative;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-direction: column;
 	transition: 0.5s;
+    
 }
 
 .container .card:hover .content {
 	transform: translateY(-20px);
+    border-radius: 16px;
 }
-.card:hover {
-border: 1px solid grey;
-}
+
+
+
+
+
 
 .container .card .content .imgBx {
 	position: relative;
-	width: 150px;
-	height: 150px;
+	width: 300px;
+	height: 300px;
 	overflow: hidden;
+    border-radius: 16px 16px 0 0;
+    border: 1px solid transparent;
 }
 
 .container .card .content .imgBx img {
@@ -2896,19 +2905,23 @@ border: 1px solid grey;
 
 .container .card .content .contentBx h3 {
 	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 2px;
 	font-weight: 500;
 	font-size: 18px;
-	text-align: center;
-	margin: 20px 0 10px;
-	line-height: 1.1em;
+	text-align: left;
+   
 }
 
 .container .card .content .contentBx h3 span {
 	font-size: 12px;
 	font-weight: 300;
 	text-transform: initial;
+    text-align: left;
+   
+}
+
+
+.contentBx {
+    margin: 32px;
 }
 
 .container .card .sci {
@@ -2950,4 +2963,11 @@ border: 1px solid grey;
 .card4 {
     background-color: #6DDFBE; 
 }
+
+
+
+
+
+
+
 
