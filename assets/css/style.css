@@ -2956,18 +2956,140 @@ img[alt="Image4"] {
     background-color: white; 
 }
 
-.card3 {
-    background-color: #3C3C3C; 
+
+
+
+
+
+
+/*Articles*/
+
+
+
+
+.containersection-articles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
-.card4 {
-    background-color: #6DDFBE; 
+
+
+.container-articles {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
 
 
 
+.container-articles .card-articles {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+	display: flex;
+    justify-content: left;
+    align-items: left;
+}
 
+
+
+
+.container-articles .card-articles .content-articles {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	transition: 0.5s;
+    
+}
+
+.container-articles .card-articles:hover .content-articles {
+	transform: translateY(-20px);
+    border-radius: 16px;
+}
+
+
+.imgBx-articles {
+    border-radius: 0px;
+}
+
+
+
+.container-articles .card-articles .content-articles .imgBx-articles {
+	position: relative;
+	width: 300px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.container-articles .card-articles .content-articles .imgBx-articles img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container-articles .card-articles .content-articles .contentBx-articles h3 {
+	color: #fff;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+   
+}
+
+.container-articles .card-articles .content-articles .contentBx-articles h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+    text-align: left;
+   
+}
+
+
+.contentBx-articles {
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+
+.container-articles .card-articles .sci {
+	position: absolute;
+	display: flex;
+}
+
+.container-articles .card-articles .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.container-articles .card-articles:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.container-articles .card-articles .sci li a {
+	color: #fff;
+	font-size: 20px;
+}
+
+
+
+
+/*
+.card-article1 {
+    background-color: #69ECCA; 
+} */
 
 
 
