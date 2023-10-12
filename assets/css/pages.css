@@ -1262,16 +1262,17 @@ a.button-email {
     -ms-flex-item-align: auto;
     align-self: auto;
 
-    background-color: #161721; 
-    padding: 0.1em 1em;
+    background-color: #F4F6F8;
+    border: #DDDDDD 1px solid; 
+    padding: 0.2em 1.5em;
     margin: 0 0.5em 0.5em 0;
-    border-radius: 0.3rem;
+    border-radius: 1rem;
     font-weight: 400;
     text-align: center;
     text-decoration: none;
     font-size: 0.75rem;
-    color: #FCFCFC;
-
+    color: #515369;
+text-transform: uppercase;
 	
 	
 }
