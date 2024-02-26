@@ -2813,8 +2813,8 @@ img[alt="Image4"] {
     justify-content: center;
     align-items: center;
    
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height:80px;
     background-image: url(../../images/profile4.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -2992,11 +2992,14 @@ img[alt="Image4"] {
 .container-articles .card-articles {
 	position: relative;
 	width: 300px;
-	height: 200px;
+	height: 250px;
 	margin: 20px;
 	display: flex;
     justify-content: left;
     align-items: left;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+    background-color: #f9f9f9;
 }
 
 
@@ -3017,7 +3020,7 @@ img[alt="Image4"] {
 
 
 .imgBx-articles {
-    border-radius: 0px;
+    border-radius: 16px;
 }
 
 
@@ -3042,7 +3045,7 @@ img[alt="Image4"] {
 	color: #fff;
 	font-weight: 500;
 	font-size: 16px;
-	text-align: left;
+	text-align: center;
    
 }
 
@@ -3058,6 +3061,8 @@ img[alt="Image4"] {
 .contentBx-articles {
     margin-top: 1rem;
     text-transform: capitalize;
+    margin: 32px;
+
 }
 
 .container-articles .card-articles .sci {
