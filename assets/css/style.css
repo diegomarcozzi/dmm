@@ -330,6 +330,8 @@ a{
                 height: 0;
                 border-bottom: 5vh solid #F8FAFB;
                 border-left: 100vw solid transparent;
+                border-top-right-radius: 50%;
+                border-top-left-radius: 20%;
               }
               
               .triangle2 {
@@ -341,6 +343,8 @@ a{
                 margin-top: 0;
                 border-top: 5vh solid #F8FAFB;
                 border-right: 100vw solid transparent;
+                border-bottom-right-radius: 50%;
+                border-bottom-left-radius: 20%;
               }
 
 
@@ -3122,3 +3126,38 @@ img[alt="Image4"] {
     
     line-height: initial; 
 }
+
+
+.titlecontainer {
+    display:flex; 
+    flex-direction: column; 
+    align-items: center;
+   margin-left: 2rem;
+   margin-right: 2rem;
+   margin-top: 20vh; 
+   margin-bottom: 15vh; 
+   text-align: center;
+   font-size: 1vw;        
+}
+
+
+.fancycontainer {
+    font-family: sans-serif;
+    color: #3c3c3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  @keyframes textShine {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+
