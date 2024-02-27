@@ -94,7 +94,7 @@ Designed and coded by DMM
 
   
   <div class="backgroundimage"></div>
-
+  <div class="speech-bubble t">
   <div class="texto-principal" >
 
                   <p>Hi! &#128075 <br>I'm <strong style="font-style: italic; z-index: 1;">Diego</strong> and I...
@@ -106,22 +106,24 @@ Designed and coded by DMM
 
                         <script>
                           const phrases = [
-                            "lead teams of product designers, brand creatives and researchers towards a common goal.",
-                            "build user-friendly things.",
-                          "am a hands-on Lead Product Designer who specializes in creating high-impact and high-visibility projects that improve KPIs.",
-                            "have expertise in leading complex initiatives. Whether I'm leading a small design team, overseeing a 40-person initiative, or working on the design myself, I am dedicated to creating products that define and shape businesses.",
-                            "lead and manage design teams with multiple disciplines including Product Design, Brand Creative and Research.",
-                            "craft product visions, strategies, and user experiences.",                                       
-                            "lead design sprints and workshops.",
-                            "build frictionless interactions and user-friendly flows.",
+                          "enjoy building teams, mentoring them, making them better.",
+                          "craft product visions, strategies, and user experiences.",   
+                            "lead teams of product designers, brand creatives and UX researchers towards a common goal.",
                             "execute product strategies with cross-functional teams.",
-                            "hire, coach and mentor team members.",
                             "build design systems based on design principles.",
-                            "lead design projects that solve complex problems.",
                             "track the right metrics and identify UX problem areas.",
+
+                             "build frictionless interactions and user-friendly flows.",
+                          "specialize in creating high-impact and high-visibility projects that improve KPIs.",
+                            "lead complex initiatives. Whether I'm leading a small design team, overseeing a 40-person initiative, or working on the design myself, I am dedicated to creating products that define and shape businesses.",
+                            "lead design sprints and workshops.",
+                            "lead and manage design teams with multiple disciplines including Product Design, Brand Creative and Research.",
+        
+                            "hire, coach and mentor team members.",
+                            "lead design projects that solve complex problems.",
                             "design intuitive experiences.",
                             "balance user needs with business goals.",
-                            "able to lead at the project level, product level, organization level, and company level.",
+                            "can lead at project level, product level, organization level, and company level.",
                             "establish organization-level goals and translate them to teams across multiple products to create remarkable experiences.",
                             "implement and lead processes that solve difficult problems and influence across a collection of products.",
                             "build relationships with team members from Engineering, Product, Marketing, and Data Science and speak to product strategy, design goals, and execution.",
@@ -135,58 +137,54 @@ Designed and coded by DMM
                           "can start to work with very few directions or no direction at all.",
                           "take complex ideas and turn them into simple designs.",
                           "create design tests, tasks, and conduct interviews.",
-                          "enjoy being a team builder. A catalyst for trust, communication, and cooperation among team members.",
-
+                          
+                          "build user-friendly things.",
+                          "firmly believe that unlike 90% of product designers out there, I don't use templates for my portfolio, I design and code my own stuff",
+                          "wanted to thank you for reading all the messages, this is the last one, you must be a very patient individual! :)",
 
                             
                           ];
                       
                           let i = 0;
-                          let j = 0;
-                          let currentPhrase = "";
-                          let isDeleting = false;
-                      
-                          function type() {
-                            if (i === phrases.length) {
-                              i = 0;
-                            }
-                      
-                            const phrase = phrases[i];
-                      
-                            if (isDeleting) {
-                              currentPhrase = phrase.substring(0, currentPhrase.length - 1);
-                            } else {
-                              currentPhrase = phrase.substring(0, currentPhrase.length + 1);
-                            }
-                      
-                            document.querySelector(".typing-text").textContent = currentPhrase;
-                      
-                            let delta = 50 - Math.random() * 100;
-                      
-                            if (isDeleting) {
-                              delta /= 2;
-                            }
-                      
-                            if (!isDeleting && currentPhrase === phrase) {
-                              delta = 2500;
-                              isDeleting = true;
-                            } else if (isDeleting && currentPhrase === "") {
-                              isDeleting = false;
-                              i++;
-                            }
-                      
-                            setTimeout(type, delta);
-                          }
-                      
-                          // Adjust the delay time here (in milliseconds)
-                          const delayTime = 1000;
-                      
-                          setTimeout(() => {
-                            type();
-                          }, delayTime);
-                        </script>
+        let currentPhrase = "";
+        let isDeleting = false;
 
+        function type() {
+            if (i === phrases.length) {
+                i = 0;
+            }
 
+            const phrase = phrases[i];
+
+            if (isDeleting) {
+                currentPhrase = "";
+                isDeleting = false;
+                i++;
+            } else {
+                currentPhrase = phrase.substring(0, currentPhrase.length + 1);
+            }
+
+            document.querySelector(".typing-text").textContent = currentPhrase;
+
+            let delta = 50 - Math.random() * 100;
+
+            if (!isDeleting && currentPhrase === phrase) {
+                delta = 2500;
+                isDeleting = true;
+            }
+
+            setTimeout(type, delta);
+        }
+
+        // Adjust the delay time here (in milliseconds)
+        const delayTime = 1000;
+
+        setTimeout(() => {
+            type();
+        }, delayTime);
+    </script>
+
+</div>
 </div>
 </div>
 </div>
