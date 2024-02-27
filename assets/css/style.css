@@ -235,13 +235,11 @@ a{
     overflow: hidden;
     white-space: wrap;
     font-weight: 400;
-    margin-left: 2rem;
-    margin-right: 2rem;
     color: #161721;
-    border-right: .15em solid #161721;
+    border-right: .05em solid #161721;
     animation: typing 0s steps(30, end), blink-caret .3s step-end infinite !important;
     margin-top: 0;
-    max-width: 36ch;
+    max-width: 45ch;
     font-size: 1.25rem;
     font-family: 'Raleway', sans-serif;
     line-height: 1.5;
@@ -262,7 +260,7 @@ a{
   
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #69ECCA }
+    50% { border-color: #161721 }
   }
   
                 
@@ -271,14 +269,76 @@ a{
 
             .texto-principal {
    
-                margin-top: 2rem;
-                margin-bottom: 5rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
                 text-align:center;
                 font-weight: 900; 
                 font-family: 'Raleway', sans-serif; 
                 
             }
         
+
+            
+.speech-bubble {
+    margin-top: 1rem;
+    --arrow-w: 0.5em;
+    --arrow-h: 0.5em;
+    --bubble-corners: 1em;
+    --w: 45ch;
+    --border-size: 3px;
+    --text-color: black;
+    --bubble-color: white;
+    --border-color: black;
+    margin-bottom: 5rem;
+    position: relative;
+    color: var(--text-color);
+    background: var(--bubble-color);
+    padding: 1em;
+    border-radius: var(--bubble-corners);
+    max-width: var(--w);
+    box-shadow: 0 0 0 var(--border-size) var(--border-color), 10px 10px 1px rgba(0, 0, 0, 1); /* Adjust shadow for slight offset */
+}
+
+.speech-bubble:before, .speech-bubble:after {
+    content: "";
+    position: absolute;
+    bottom: calc(-1 * var(--arrow-h) * 2 + 0.5px);
+    left: 50%;
+    border-style: solid;
+    border-width: var(--arrow-h) var(--arrow-w);
+    border-color: var(--bubble-color) transparent transparent;
+}
+
+.speech-bubble:before {
+    border-width: calc(var(--arrow-h) + var(--border-size)) calc(var(--arrow-w) + var(--border-size));
+    border-color: var(--border-color) transparent transparent;
+    bottom: calc(-1 * var(--arrow-h) * 2 - 2.5 * var(--border-size));
+    left: calc(50% - var(--border-size));
+}
+
+.speech-bubble.t:after {
+    border-color: transparent transparent var(--bubble-color);
+    bottom: auto;
+    top: calc(-1 * var(--arrow-h) * 2 + 0.5px);
+}
+
+.speech-bubble.t:before {
+    border-width: calc(var(--arrow-h) + var(--border-size)) calc(var(--arrow-w) + var(--border-size));
+    border-color: transparent transparent var(--border-color);
+    bottom: auto;
+    top: calc(-1 * var(--arrow-h) * 2 - 2.5 * var(--border-size));
+}
+
+              
+         
+              
+              
+
+            
+
+
+
+
 
   .parrafo-principal {
     max-width: 45.5ch;
@@ -900,6 +960,7 @@ margin-top: 1rem;
             
 .box {
     background: #F8FAFB;
+    
 }
 
 
@@ -2817,8 +2878,8 @@ img[alt="Image4"] {
     justify-content: center;
     align-items: center;
    
-    width: 80px;
-    height:80px;
+    width: 60px;
+    height:60px;
     background-image: url(../../images/profile4.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -2861,7 +2922,7 @@ img[alt="Image4"] {
 	width: 300px;
 	height: 430px;
 	margin: 20px;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 10px 10px 1px rgba(0, 0, 0, 1); 
 	border-radius: 16px;
 	display: flex;
     justify-content: center;
@@ -2895,7 +2956,6 @@ img[alt="Image4"] {
 	height: 300px;
 	overflow: hidden;
     border-radius: 16px 16px 0 0;
-    border: 1px solid transparent;
 }
 
 .container .card .content .imgBx img {
@@ -3001,7 +3061,7 @@ img[alt="Image4"] {
 	display: flex;
     justify-content: left;
     align-items: left;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 1px rgba(0, 0, 0, 1); 
 	border-radius: 16px;
     background-color: #f9f9f9;
 }
