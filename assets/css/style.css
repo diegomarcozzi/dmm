@@ -3115,12 +3115,12 @@ img[alt="Image4"] {
   .icon-container {
     display: flex;
     align-items: center; 
-    margin: 24px; 
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
-.icon-container p {
-    margin-left: 16px; 
-}
 
 .material-symbols-rounded {
     
