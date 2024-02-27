@@ -293,7 +293,7 @@ a{
     position: relative;
     color: var(--text-color);
     background: var(--bubble-color);
-    padding: 1em;
+    padding: 0.5em 1em 0.5em 1em;
     border-radius: var(--bubble-corners);
     max-width: var(--w);
     box-shadow: 0 0 0 var(--border-size) var(--border-color), 10px 10px 1px rgba(0, 0, 0, 1); /* Adjust shadow for slight offset */
